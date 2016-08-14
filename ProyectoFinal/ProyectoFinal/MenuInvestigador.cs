@@ -23,19 +23,12 @@ namespace ProyectoFinal
 
         }
 
-        private void admComboBoxConsultar_SelectedIndexChanged(object sender, EventArgs e)
+        private void invComboBoxConsultar_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void admConsultar_Click(object sender, EventArgs e)
-        {
-            InicioSesion InicioSesion = new InicioSesion();
-            InicioSesion.ShowDialog();
-            
-        }
-
-        private void buttonMenuAdmVolver_Click(object sender, EventArgs e)
+        private void buttonMenuInvVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
             InicioSesion InicioSesion = new InicioSesion();

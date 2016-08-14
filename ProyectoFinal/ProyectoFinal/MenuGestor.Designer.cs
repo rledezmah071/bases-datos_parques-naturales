@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuGestor));
             this.label1 = new System.Windows.Forms.Label();
-            this.gestExcursiones = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.buttonMenuAdmVolver = new System.Windows.Forms.Button();
-            this.GestAlojamiento = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.buttonConsultaExcursionMG = new System.Windows.Forms.Button();
             this.buttonConsultaAlojamientoMG = new System.Windows.Forms.Button();
             this.GestorBtnVisitantes = new System.Windows.Forms.Button();
@@ -68,13 +68,13 @@
             // 
             // gestExcursiones
             // 
-            this.gestExcursiones.AutoSize = true;
-            this.gestExcursiones.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.gestExcursiones.Location = new System.Drawing.Point(7, 110);
-            this.gestExcursiones.Name = "gestExcursiones";
-            this.gestExcursiones.Size = new System.Drawing.Size(142, 26);
-            this.gestExcursiones.TabIndex = 14;
-            this.gestExcursiones.Text = "Excursiones";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
+            this.label11.Location = new System.Drawing.Point(7, 110);
+            this.label11.Name = "gestExcursiones";
+            this.label11.Size = new System.Drawing.Size(142, 26);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Excursiones";
             // 
             // buttonMenuAdmVolver
             // 
@@ -91,13 +91,13 @@
             // 
             // GestAlojamiento
             // 
-            this.GestAlojamiento.AutoSize = true;
-            this.GestAlojamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.GestAlojamiento.Location = new System.Drawing.Point(722, 110);
-            this.GestAlojamiento.Name = "GestAlojamiento";
-            this.GestAlojamiento.Size = new System.Drawing.Size(138, 26);
-            this.GestAlojamiento.TabIndex = 16;
-            this.GestAlojamiento.Text = "Alojamiento";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(722, 110);
+            this.label12.Name = "GestAlojamiento";
+            this.label12.Size = new System.Drawing.Size(138, 26);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "Alojamiento";
             // 
             // buttonConsultaExcursionMG
             // 
@@ -320,9 +320,9 @@
             this.Controls.Add(this.GestorBtnVisitantes);
             this.Controls.Add(this.buttonConsultaAlojamientoMG);
             this.Controls.Add(this.buttonConsultaExcursionMG);
-            this.Controls.Add(this.GestAlojamiento);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.buttonMenuAdmVolver);
-            this.Controls.Add(this.gestExcursiones);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "MenuGestor";
@@ -335,9 +335,9 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label gestExcursiones;
+        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button buttonMenuAdmVolver;
-        private System.Windows.Forms.Label GestAlojamiento;
+        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button buttonConsultaExcursionMG;
         private System.Windows.Forms.Button buttonConsultaAlojamientoMG;
         private System.Windows.Forms.Button GestorBtnVisitantes;

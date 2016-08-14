@@ -35,11 +35,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonGuardaArea = new System.Windows.Forms.Button();
-            this.areaCapacidad = new System.Windows.Forms.TextBox();
-            this.areaCategoria = new System.Windows.Forms.TextBox();
+            this.areaExtension = new System.Windows.Forms.TextBox();
+            this.areaNombre = new System.Windows.Forms.TextBox();
             this.buttonActualizarArea = new System.Windows.Forms.Button();
             this.buttonEliminaArea = new System.Windows.Forms.Button();
-            this.arealabel = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.ComboBoxArea = new System.Windows.Forms.ComboBox();
             this.areaID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -110,22 +110,23 @@
             this.buttonGuardaArea.Size = new System.Drawing.Size(67, 60);
             this.buttonGuardaArea.TabIndex = 60;
             this.buttonGuardaArea.UseVisualStyleBackColor = true;
+            this.buttonGuardaArea.Click += new System.EventHandler(this.buttonGuardaArea_Click);
             // 
-            // areaCapacidad
+            // areaExtension
             // 
-            this.areaCapacidad.BackColor = System.Drawing.SystemColors.Control;
-            this.areaCapacidad.Location = new System.Drawing.Point(633, 248);
-            this.areaCapacidad.Name = "areaCapacidad";
-            this.areaCapacidad.Size = new System.Drawing.Size(197, 20);
-            this.areaCapacidad.TabIndex = 59;
+            this.areaExtension.BackColor = System.Drawing.SystemColors.Control;
+            this.areaExtension.Location = new System.Drawing.Point(633, 248);
+            this.areaExtension.Name = "areaExtension";
+            this.areaExtension.Size = new System.Drawing.Size(197, 20);
+            this.areaExtension.TabIndex = 59;
             // 
-            // areaCategoria
+            // areaNombre
             // 
-            this.areaCategoria.BackColor = System.Drawing.SystemColors.Control;
-            this.areaCategoria.Location = new System.Drawing.Point(633, 188);
-            this.areaCategoria.Name = "areaCategoria";
-            this.areaCategoria.Size = new System.Drawing.Size(197, 20);
-            this.areaCategoria.TabIndex = 58;
+            this.areaNombre.BackColor = System.Drawing.SystemColors.Control;
+            this.areaNombre.Location = new System.Drawing.Point(633, 188);
+            this.areaNombre.Name = "areaNombre";
+            this.areaNombre.Size = new System.Drawing.Size(197, 20);
+            this.areaNombre.TabIndex = 58;
             // 
             // buttonActualizarArea
             // 
@@ -151,15 +152,15 @@
             this.buttonEliminaArea.TabIndex = 56;
             this.buttonEliminaArea.UseVisualStyleBackColor = false;
             // 
-            // arealabel
+            // label6
             // 
-            this.arealabel.AutoSize = true;
-            this.arealabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.arealabel.Location = new System.Drawing.Point(111, 171);
-            this.arealabel.Name = "arealabel";
-            this.arealabel.Size = new System.Drawing.Size(93, 20);
-            this.arealabel.TabIndex = 55;
-            this.arealabel.Text = "Existentes";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(111, 171);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 20);
+            this.label6.TabIndex = 55;
+            this.label6.Text = "Existentes";
             // 
             // ComboBoxArea
             // 
@@ -204,11 +205,11 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonGuardaArea);
-            this.Controls.Add(this.areaCapacidad);
-            this.Controls.Add(this.areaCategoria);
+            this.Controls.Add(this.areaExtension);
+            this.Controls.Add(this.areaNombre);
             this.Controls.Add(this.buttonActualizarArea);
             this.Controls.Add(this.buttonEliminaArea);
-            this.Controls.Add(this.arealabel);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.ComboBoxArea);
             this.Controls.Add(this.areaID);
             this.Controls.Add(this.label1);
@@ -227,11 +228,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonGuardaArea;
-        private System.Windows.Forms.TextBox areaCapacidad;
-        private System.Windows.Forms.TextBox areaCategoria;
+        private System.Windows.Forms.TextBox areaExtension;
+        private System.Windows.Forms.TextBox areaNombre;
         private System.Windows.Forms.Button buttonActualizarArea;
         private System.Windows.Forms.Button buttonEliminaArea;
-        private System.Windows.Forms.Label arealabel;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox ComboBoxArea;
         private System.Windows.Forms.TextBox areaID;
         private System.Windows.Forms.Label label1;

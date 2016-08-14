@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaVisitantes));
-            this.Domicilio = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.visDomicilio = new System.Windows.Forms.TextBox();
             this.visComboBoxCodAlojamiento = new System.Windows.Forms.ComboBox();
             this.buttonVisitantesVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaVisitantes = new System.Windows.Forms.Button();
-            this.extvsiDNI = new System.Windows.Forms.Label();
-            this.textvisNombre = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textvisID = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.buttonGuardaVisitantes = new System.Windows.Forms.Button();
             this.visNombre = new System.Windows.Forms.TextBox();
             this.visDNI = new System.Windows.Forms.TextBox();
             this.buttonActualizarVisitantes = new System.Windows.Forms.Button();
             this.buttonEliminaVisitantes = new System.Windows.Forms.Button();
-            this.comlabel = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.ComboBoxVisitantes = new System.Windows.Forms.ComboBox();
             this.visID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -53,13 +53,13 @@
             // 
             // Domicilio
             // 
-            this.Domicilio.AutoSize = true;
-            this.Domicilio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.Domicilio.Location = new System.Drawing.Point(499, 211);
-            this.Domicilio.Name = "Domicilio";
-            this.Domicilio.Size = new System.Drawing.Size(81, 20);
-            this.Domicilio.TabIndex = 105;
-            this.Domicilio.Text = "Domicilio";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(499, 211);
+            this.label8.Name = "Domicilio";
+            this.label8.Size = new System.Drawing.Size(81, 20);
+            this.label8.TabIndex = 105;
+            this.label8.Text = "Domicilio";
             // 
             // visDomicilio
             // 
@@ -110,23 +110,23 @@
             // 
             // extvsiDNI
             // 
-            this.extvsiDNI.AutoSize = true;
-            this.extvsiDNI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.extvsiDNI.Location = new System.Drawing.Point(540, 127);
-            this.extvsiDNI.Name = "extvsiDNI";
-            this.extvsiDNI.Size = new System.Drawing.Size(40, 20);
-            this.extvsiDNI.TabIndex = 100;
-            this.extvsiDNI.Text = "DNI";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(540, 127);
+            this.label7.Name = "extvsiDNI";
+            this.label7.Size = new System.Drawing.Size(40, 20);
+            this.label7.TabIndex = 100;
+            this.label7.Text = "DNI";
             // 
             // textvisNombre
             // 
-            this.textvisNombre.AutoSize = true;
-            this.textvisNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.textvisNombre.Location = new System.Drawing.Point(509, 169);
-            this.textvisNombre.Name = "textvisNombre";
-            this.textvisNombre.Size = new System.Drawing.Size(71, 20);
-            this.textvisNombre.TabIndex = 99;
-            this.textvisNombre.Text = "Nombre";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(509, 169);
+            this.label6.Name = "textvisNombre";
+            this.label6.Size = new System.Drawing.Size(71, 20);
+            this.label6.TabIndex = 99;
+            this.label6.Text = "Nombre";
             // 
             // label2
             // 
@@ -140,13 +140,13 @@
             // 
             // textvisID
             // 
-            this.textvisID.AutoSize = true;
-            this.textvisID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.textvisID.Location = new System.Drawing.Point(463, 86);
-            this.textvisID.Name = "textvisID";
-            this.textvisID.Size = new System.Drawing.Size(117, 20);
-            this.textvisID.TabIndex = 97;
-            this.textvisID.Text = "Identificación";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(463, 86);
+            this.label5.Name = "textvisID";
+            this.label5.Size = new System.Drawing.Size(117, 20);
+            this.label5.TabIndex = 97;
+            this.label5.Text = "Identificación";
             // 
             // buttonGuardaVisitantes
             // 
@@ -201,13 +201,13 @@
             // 
             // comlabel
             // 
-            this.comlabel.AutoSize = true;
-            this.comlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.comlabel.Location = new System.Drawing.Point(107, 170);
-            this.comlabel.Name = "comlabel";
-            this.comlabel.Size = new System.Drawing.Size(93, 20);
-            this.comlabel.TabIndex = 91;
-            this.comlabel.Text = "Existentes";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(107, 170);
+            this.label4.Name = "comlabel";
+            this.label4.Size = new System.Drawing.Size(93, 20);
+            this.label4.TabIndex = 91;
+            this.label4.Text = "Existentes";
             // 
             // ComboBoxVisitantes
             // 
@@ -265,21 +265,21 @@
             this.ClientSize = new System.Drawing.Size(884, 511);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.visProfesion);
-            this.Controls.Add(this.Domicilio);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.visDomicilio);
             this.Controls.Add(this.visComboBoxCodAlojamiento);
             this.Controls.Add(this.buttonVisitantesVolver);
             this.Controls.Add(this.buttonLimpiaVisitantes);
-            this.Controls.Add(this.extvsiDNI);
-            this.Controls.Add(this.textvisNombre);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textvisID);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonGuardaVisitantes);
             this.Controls.Add(this.visNombre);
             this.Controls.Add(this.visDNI);
             this.Controls.Add(this.buttonActualizarVisitantes);
             this.Controls.Add(this.buttonEliminaVisitantes);
-            this.Controls.Add(this.comlabel);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.ComboBoxVisitantes);
             this.Controls.Add(this.visID);
             this.Controls.Add(this.label1);
@@ -293,21 +293,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Label Domicilio;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox visDomicilio;
         private System.Windows.Forms.ComboBox visComboBoxCodAlojamiento;
         private System.Windows.Forms.Button buttonVisitantesVolver;
         private System.Windows.Forms.Button buttonLimpiaVisitantes;
-        private System.Windows.Forms.Label extvsiDNI;
-        private System.Windows.Forms.Label textvisNombre;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label textvisID;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button buttonGuardaVisitantes;
         private System.Windows.Forms.TextBox visNombre;
         private System.Windows.Forms.TextBox visDNI;
         private System.Windows.Forms.Button buttonActualizarVisitantes;
         private System.Windows.Forms.Button buttonEliminaVisitantes;
-        private System.Windows.Forms.Label comlabel;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox ComboBoxVisitantes;
         private System.Windows.Forms.TextBox visID;
         private System.Windows.Forms.Label label1;

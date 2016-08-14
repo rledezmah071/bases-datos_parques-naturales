@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuRecursosHumanos));
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonMenuAdmVolver = new System.Windows.Forms.Button();
+            this.buttonMenuRHVolver = new System.Windows.Forms.Button();
             this.rhPersonal = new System.Windows.Forms.Button();
             this.rhTipoPersonal = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -45,18 +45,18 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Menú Principal";
             // 
-            // buttonMenuAdmVolver
+            // buttonMenuRHVolver
             // 
-            this.buttonMenuAdmVolver.BackColor = System.Drawing.SystemColors.Control;
-            this.buttonMenuAdmVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMenuAdmVolver.BackgroundImage")));
-            this.buttonMenuAdmVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonMenuAdmVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMenuAdmVolver.Location = new System.Drawing.Point(12, 12);
-            this.buttonMenuAdmVolver.Name = "buttonMenuAdmVolver";
-            this.buttonMenuAdmVolver.Size = new System.Drawing.Size(67, 60);
-            this.buttonMenuAdmVolver.TabIndex = 16;
-            this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
-            this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click);
+            this.buttonMenuRHVolver.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonMenuRHVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMenuAdmVolver.BackgroundImage")));
+            this.buttonMenuRHVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonMenuRHVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMenuRHVolver.Location = new System.Drawing.Point(12, 12);
+            this.buttonMenuRHVolver.Name = "buttonMenuAdmVolver";
+            this.buttonMenuRHVolver.Size = new System.Drawing.Size(67, 60);
+            this.buttonMenuRHVolver.TabIndex = 16;
+            this.buttonMenuRHVolver.UseVisualStyleBackColor = false;
+            this.buttonMenuRHVolver.Click += new System.EventHandler(this.buttonMenuRHVolver_Click);
             // 
             // rhPersonal
             // 
@@ -89,7 +89,7 @@
             this.ClientSize = new System.Drawing.Size(884, 511);
             this.Controls.Add(this.rhTipoPersonal);
             this.Controls.Add(this.rhPersonal);
-            this.Controls.Add(this.buttonMenuAdmVolver);
+            this.Controls.Add(this.buttonMenuRHVolver);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "MenuRecursosHumanos";
@@ -103,7 +103,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonMenuAdmVolver;
+        private System.Windows.Forms.Button buttonMenuRHVolver;
         private System.Windows.Forms.Button rhPersonal;
         private System.Windows.Forms.Button rhTipoPersonal;
     }

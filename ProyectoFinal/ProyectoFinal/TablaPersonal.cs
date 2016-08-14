@@ -23,11 +23,6 @@ namespace ProyectoFinal
 
         }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonPersonalVolver_Click(object sender, EventArgs e)
         {
             this.Hide();

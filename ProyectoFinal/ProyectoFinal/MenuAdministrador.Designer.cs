@@ -54,7 +54,6 @@
             this.label1.Size = new System.Drawing.Size(206, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Menú Principal";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonMenuAdmVolver
             // 
@@ -68,7 +67,7 @@
             this.buttonMenuAdmVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonMenuAdmVolver.TabIndex = 6;
             this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
-            this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click_1);
+            this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click);
             // 
             // admOrganismo
             // 
@@ -101,7 +100,7 @@
             this.admParqueNatural.TabIndex = 18;
             this.admParqueNatural.Text = "Parques Naturales";
             this.admParqueNatural.UseVisualStyleBackColor = true;
-            this.admParqueNatural.Click += new System.EventHandler(this.button4_Click);
+            this.admParqueNatural.Click += new System.EventHandler(this.admParqueNatural_Click);
             // 
             // admAreas
             // 
@@ -112,7 +111,7 @@
             this.admAreas.TabIndex = 14;
             this.admAreas.Text = "Áreas";
             this.admAreas.UseVisualStyleBackColor = true;
-            this.admAreas.Click += new System.EventHandler(this.button5_Click);
+            this.admAreas.Click += new System.EventHandler(this.admAreas_Click);
             // 
             // admEspecie
             // 
@@ -123,7 +122,7 @@
             this.admEspecie.TabIndex = 15;
             this.admEspecie.Text = "Especies";
             this.admEspecie.UseVisualStyleBackColor = true;
-            this.admEspecie.Click += new System.EventHandler(this.button6_Click);
+            this.admEspecie.Click += new System.EventHandler(this.admEspecie_Click);
             // 
             // admExcursion
             // 
@@ -167,7 +166,7 @@
             this.admInvestigador.TabIndex = 22;
             this.admInvestigador.Text = "Investigadores";
             this.admInvestigador.UseVisualStyleBackColor = true;
-            this.admInvestigador.Click += new System.EventHandler(this.button4_Click_1);
+            this.admInvestigador.Click += new System.EventHandler(this.admInvestigador_Click);
             // 
             // admPersonal
             // 
@@ -178,7 +177,7 @@
             this.admPersonal.TabIndex = 24;
             this.admPersonal.Text = "Personal";
             this.admPersonal.UseVisualStyleBackColor = true;
-            this.admPersonal.Click += new System.EventHandler(this.button1_Click);
+            this.admPersonal.Click += new System.EventHandler(this.admPersonal_Click);
             // 
             // admVisitante
             // 
@@ -200,7 +199,7 @@
             this.admTipoPersonal.TabIndex = 26;
             this.admTipoPersonal.Text = "Tipo de Personal";
             this.admTipoPersonal.UseVisualStyleBackColor = true;
-            this.admTipoPersonal.Click += new System.EventHandler(this.admTipoPersonal_Click_1);
+            this.admTipoPersonal.Click += new System.EventHandler(this.admTipoPersonal_Click);
             // 
             // MenuAdministrador
             // 

@@ -17,50 +17,14 @@ namespace ProyectoFinal
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
-
-
         }
 
-
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
- 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void admconsultar_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void buttonMenuAdmVolver_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonMenuAdmVolver_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             InicioSesion InicioSesion = new InicioSesion();
-            InicioSesion.ShowDialog();
-            
-            
+            InicioSesion.ShowDialog();       
         }
 
         private void MenuAdministrador_Load(object sender, EventArgs e)
@@ -68,14 +32,14 @@ namespace ProyectoFinal
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void admEspecie_Click(object sender, EventArgs e)
         {
             this.Hide();
             TablaEspecies TablaEspecies = new TablaEspecies();
             TablaEspecies.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void admParqueNatural_Click(object sender, EventArgs e)
         {
             this.Hide();
             TablaParquesNaturales TablaParquesNaturales = new TablaParquesNaturales();
@@ -89,7 +53,7 @@ namespace ProyectoFinal
             Organismo.ShowDialog();
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
+        private void admInvestigador_Click(object sender, EventArgs e)
         {
             this.Hide();
             TablaInvestigadores TablaInvestigadores = new TablaInvestigadores();
@@ -103,7 +67,7 @@ namespace ProyectoFinal
             TablaExcursion.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void admPersonal_Click(object sender, EventArgs e)
         {
             this.Hide();
             TablaPersonal TablaPersonal = new TablaPersonal();
@@ -117,7 +81,7 @@ namespace ProyectoFinal
             TablaAlojamiento.ShowDialog();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void admAreas_Click(object sender, EventArgs e)
         {
             this.Hide();
             TablaArea TablaArea = new TablaArea();
@@ -138,11 +102,6 @@ namespace ProyectoFinal
             TablaProyectos.ShowDialog();
         }
 
-        private void admTipoPersonal_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void admVisitante_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -150,7 +109,7 @@ namespace ProyectoFinal
             TablaVisitantes.ShowDialog();
         }
 
-        private void admTipoPersonal_Click_1(object sender, EventArgs e)
+        private void admTipoPersonal_Click(object sender, EventArgs e)
         {
             this.Hide();
             TablaTipoDePersonal TablaTipoDePersonal = new TablaTipoDePersonal();

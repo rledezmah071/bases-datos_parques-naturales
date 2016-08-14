@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaInvestigadores));
-            this.textTelefono = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.invTelefono = new System.Windows.Forms.TextBox();
             this.buttonInvestigadorVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaInvestigador = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.labelapellido = new System.Windows.Forms.Label();
-            this.textTitulo = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonGuardaInvestigador = new System.Windows.Forms.Button();
             this.invApellido = new System.Windows.Forms.TextBox();
             this.invNombre = new System.Windows.Forms.TextBox();
             this.buttonActualizarInvestigador = new System.Windows.Forms.Button();
             this.buttonEliminaInvestigador = new System.Windows.Forms.Button();
-            this.Invlabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.ComboBoxInvestigador = new System.Windows.Forms.ComboBox();
             this.invID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,13 +51,13 @@
             // 
             // textTelefono
             // 
-            this.textTelefono.AutoSize = true;
-            this.textTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.textTelefono.Location = new System.Drawing.Point(534, 257);
-            this.textTelefono.Name = "textTelefono";
-            this.textTelefono.Size = new System.Drawing.Size(79, 20);
-            this.textTelefono.TabIndex = 87;
-            this.textTelefono.Text = "Teléfono";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(534, 257);
+            this.label2.Name = "textTelefono";
+            this.label2.Size = new System.Drawing.Size(79, 20);
+            this.label2.TabIndex = 87;
+            this.label2.Text = "Teléfono";
             // 
             // invTelefono
             // 
@@ -104,23 +104,23 @@
             // 
             // labelapellido
             // 
-            this.labelapellido.AutoSize = true;
-            this.labelapellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.labelapellido.Location = new System.Drawing.Point(540, 207);
-            this.labelapellido.Name = "labelapellido";
-            this.labelapellido.Size = new System.Drawing.Size(73, 20);
-            this.labelapellido.TabIndex = 81;
-            this.labelapellido.Text = "Apellido";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(540, 207);
+            this.label4.Name = "labelapellido";
+            this.label4.Size = new System.Drawing.Size(73, 20);
+            this.label4.TabIndex = 81;
+            this.label4.Text = "Apellido";
             // 
             // textTitulo
             // 
-            this.textTitulo.AutoSize = true;
-            this.textTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.textTitulo.Location = new System.Drawing.Point(560, 306);
-            this.textTitulo.Name = "textTitulo";
-            this.textTitulo.Size = new System.Drawing.Size(53, 20);
-            this.textTitulo.TabIndex = 80;
-            this.textTitulo.Text = "Título";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(560, 306);
+            this.label6.Name = "textTitulo";
+            this.label6.Size = new System.Drawing.Size(53, 20);
+            this.label6.TabIndex = 80;
+            this.label6.Text = "Título";
             // 
             // label3
             // 
@@ -182,17 +182,16 @@
             this.buttonEliminaInvestigador.Size = new System.Drawing.Size(67, 60);
             this.buttonEliminaInvestigador.TabIndex = 74;
             this.buttonEliminaInvestigador.UseVisualStyleBackColor = false;
-            this.buttonEliminaInvestigador.Click += new System.EventHandler(this.buttonEliminaExcursion_Click);
             // 
             // Invlabel
             // 
-            this.Invlabel.AutoSize = true;
-            this.Invlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.Invlabel.Location = new System.Drawing.Point(112, 171);
-            this.Invlabel.Name = "Invlabel";
-            this.Invlabel.Size = new System.Drawing.Size(93, 20);
-            this.Invlabel.TabIndex = 73;
-            this.Invlabel.Text = "Existentes";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(112, 171);
+            this.label7.Name = "Invlabel";
+            this.label7.Size = new System.Drawing.Size(93, 20);
+            this.label7.TabIndex = 73;
+            this.label7.Text = "Existentes";
             // 
             // ComboBoxInvestigador
             // 
@@ -240,20 +239,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 511);
             this.Controls.Add(this.invTitulo);
-            this.Controls.Add(this.textTelefono);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.invTelefono);
             this.Controls.Add(this.buttonInvestigadorVolver);
             this.Controls.Add(this.buttonLimpiaInvestigador);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.labelapellido);
-            this.Controls.Add(this.textTitulo);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonGuardaInvestigador);
             this.Controls.Add(this.invApellido);
             this.Controls.Add(this.invNombre);
             this.Controls.Add(this.buttonActualizarInvestigador);
             this.Controls.Add(this.buttonEliminaInvestigador);
-            this.Controls.Add(this.Invlabel);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.ComboBoxInvestigador);
             this.Controls.Add(this.invID);
             this.Controls.Add(this.label1);
@@ -267,20 +266,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label textTelefono;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox invTelefono;
         private System.Windows.Forms.Button buttonInvestigadorVolver;
         private System.Windows.Forms.Button buttonLimpiaInvestigador;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label labelapellido;
-        private System.Windows.Forms.Label textTitulo;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonGuardaInvestigador;
         private System.Windows.Forms.TextBox invApellido;
         private System.Windows.Forms.TextBox invNombre;
         private System.Windows.Forms.Button buttonActualizarInvestigador;
         private System.Windows.Forms.Button buttonEliminaInvestigador;
-        private System.Windows.Forms.Label Invlabel;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox ComboBoxInvestigador;
         private System.Windows.Forms.TextBox invID;
         private System.Windows.Forms.Label label1;

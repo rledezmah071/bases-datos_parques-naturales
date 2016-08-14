@@ -23,10 +23,6 @@ namespace ProyectoFinal
 
         }
 
-        private void buttonEliminaExcursion_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void buttonInvestigadorVolver_Click(object sender, EventArgs e)
         {

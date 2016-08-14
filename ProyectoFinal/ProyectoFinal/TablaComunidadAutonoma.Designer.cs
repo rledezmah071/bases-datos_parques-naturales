@@ -41,7 +41,7 @@
             this.comNombre = new System.Windows.Forms.TextBox();
             this.buttonActualizarComunidadAutonoma = new System.Windows.Forms.Button();
             this.buttonEliminaComunidadAutonoma = new System.Windows.Forms.Button();
-            this.comlabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.ComboBoxComunidadAutonoma = new System.Windows.Forms.ComboBox();
             this.comID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -127,7 +127,6 @@
             this.label3.Size = new System.Drawing.Size(117, 20);
             this.label3.TabIndex = 61;
             this.label3.Text = "Identificación";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // buttonGuardaComunidadAutonoma
             // 
@@ -182,13 +181,13 @@
             // 
             // comlabel
             // 
-            this.comlabel.AutoSize = true;
-            this.comlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.comlabel.Location = new System.Drawing.Point(111, 171);
-            this.comlabel.Name = "comlabel";
-            this.comlabel.Size = new System.Drawing.Size(93, 20);
-            this.comlabel.TabIndex = 55;
-            this.comlabel.Text = "Existentes";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(111, 171);
+            this.label7.Name = "comlabel";
+            this.label7.Size = new System.Drawing.Size(93, 20);
+            this.label7.TabIndex = 55;
+            this.label7.Text = "Existentes";
             // 
             // ComboBoxComunidadAutonoma
             // 
@@ -258,7 +257,7 @@
             this.Controls.Add(this.comNombre);
             this.Controls.Add(this.buttonActualizarComunidadAutonoma);
             this.Controls.Add(this.buttonEliminaComunidadAutonoma);
-            this.Controls.Add(this.comlabel);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.ComboBoxComunidadAutonoma);
             this.Controls.Add(this.comID);
             this.Controls.Add(this.label1);
@@ -284,7 +283,7 @@
         private System.Windows.Forms.TextBox comNombre;
         private System.Windows.Forms.Button buttonActualizarComunidadAutonoma;
         private System.Windows.Forms.Button buttonEliminaComunidadAutonoma;
-        private System.Windows.Forms.Label comlabel;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox ComboBoxComunidadAutonoma;
         private System.Windows.Forms.TextBox comID;
         private System.Windows.Forms.Label label1;

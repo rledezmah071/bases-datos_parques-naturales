@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,14 @@ namespace ProyectoFinal
 {
     public partial class TablaArea : Form
     {
+
+        Controlador controlador = new Controlador();
+
         public TablaArea()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
+            
         }
 
         private void TablaArea_Load(object sender, EventArgs e)
@@ -32,9 +37,17 @@ namespace ProyectoFinal
 
         private void buttonLimpiaArea_Click(object sender, EventArgs e)
         {
-            areaCapacidad.Clear();
-            areaCategoria.Clear();
+            areaExtension.Clear();
+            areaNombre.Clear();
             areaID.Clear();
+        }
+
+        private void buttonGuardaArea_Click(object sender, EventArgs e)
+        {
+            string idArea = areaID.Text;
+            string nombreArea = areaNombre.Text;
+            string extensionArea = areaExtension.Text;
+            controlador.insertaArea(idArea,nombreArea,extensionArea);
         }
     }
 }

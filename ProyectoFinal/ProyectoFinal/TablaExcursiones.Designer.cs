@@ -41,7 +41,7 @@
             this.excFecha = new System.Windows.Forms.TextBox();
             this.buttonActualizarExcursion = new System.Windows.Forms.Button();
             this.buttonEliminaExcursion = new System.Windows.Forms.Button();
-            this.exclabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.ComboBoxExcursion = new System.Windows.Forms.ComboBox();
             this.excID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -181,13 +181,13 @@
             // 
             // exclabel
             // 
-            this.exclabel.AutoSize = true;
-            this.exclabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.exclabel.Location = new System.Drawing.Point(110, 171);
-            this.exclabel.Name = "exclabel";
-            this.exclabel.Size = new System.Drawing.Size(93, 20);
-            this.exclabel.TabIndex = 55;
-            this.exclabel.Text = "Existentes";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(110, 171);
+            this.label7.Name = "exclabel";
+            this.label7.Size = new System.Drawing.Size(93, 20);
+            this.label7.TabIndex = 55;
+            this.label7.Text = "Existentes";
             // 
             // ComboBoxExcursion
             // 
@@ -258,7 +258,7 @@
             this.Controls.Add(this.excFecha);
             this.Controls.Add(this.buttonActualizarExcursion);
             this.Controls.Add(this.buttonEliminaExcursion);
-            this.Controls.Add(this.exclabel);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.ComboBoxExcursion);
             this.Controls.Add(this.excID);
             this.Controls.Add(this.label1);
@@ -284,7 +284,7 @@
         private System.Windows.Forms.TextBox excFecha;
         private System.Windows.Forms.Button buttonActualizarExcursion;
         private System.Windows.Forms.Button buttonEliminaExcursion;
-        private System.Windows.Forms.Label exclabel;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox ComboBoxExcursion;
         private System.Windows.Forms.TextBox excID;
         private System.Windows.Forms.Label label1;

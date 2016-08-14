@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioSesion));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textoUsuario = new System.Windows.Forms.TextBox();
+            this.textoContraseña = new System.Windows.Forms.TextBox();
             this.buttonIngresar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonSalir = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -51,24 +51,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Sistema de Gestión de Parques Naturales";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // textoUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(223, 165);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 20);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textoUsuario.BackColor = System.Drawing.SystemColors.Control;
+            this.textoUsuario.Location = new System.Drawing.Point(223, 165);
+            this.textoUsuario.Name = "textoUsuario";
+            this.textoUsuario.Size = new System.Drawing.Size(140, 20);
+            this.textoUsuario.TabIndex = 1;
+            this.textoUsuario.TextChanged += new System.EventHandler(this.textoUsuario_TextChanged);
             // 
-            // textBox2
+            // textoContraseña
             // 
-            this.textBox2.Location = new System.Drawing.Point(223, 236);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(140, 20);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.textoContraseña.BackColor = System.Drawing.SystemColors.Control;
+            this.textoContraseña.Location = new System.Drawing.Point(223, 236);
+            this.textoContraseña.Name = "textoContraseña";
+            this.textoContraseña.PasswordChar = '*';
+            this.textoContraseña.Size = new System.Drawing.Size(140, 20);
+            this.textoContraseña.TabIndex = 2;
+            this.textoContraseña.UseSystemPasswordChar = true;
             // 
             // buttonIngresar
             // 
@@ -95,7 +96,6 @@
             this.label2.Size = new System.Drawing.Size(93, 25);
             this.label2.TabIndex = 4;
             this.label2.Text = "Usuario";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -121,21 +121,21 @@
             this.buttonSalir.TabIndex = 67;
             this.buttonSalir.Text = "Salir";
             this.buttonSalir.UseVisualStyleBackColor = false;
-            this.buttonSalir.Click += new System.EventHandler(this.buttonComunidadVolver_Click);
+            this.buttonSalir.Click += new System.EventHandler(this.buttonSalir_Click);
             // 
-            // button1
+            // label4
             // 
-            this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Image = global::ProyectoFinal.Properties.Resources.transparent___png_background_by_anangelfromhell_d5ug2ks;
-            this.button1.Location = new System.Drawing.Point(51, 393);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(15, 10);
-            this.button1.TabIndex = 68;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Candara", 12.75F);
+            this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.Location = new System.Drawing.Point(12, 477);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 21);
+            this.label4.TabIndex = 68;
+            this.label4.Text = "ABD";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // InicioSesion
             // 
@@ -144,13 +144,13 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(884, 511);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonSalir);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonIngresar);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textoContraseña);
+            this.Controls.Add(this.textoUsuario);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "InicioSesion";
@@ -164,13 +164,13 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textoUsuario;
+        private System.Windows.Forms.TextBox textoContraseña;
         private System.Windows.Forms.Button buttonIngresar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonSalir;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
     }
 }
 

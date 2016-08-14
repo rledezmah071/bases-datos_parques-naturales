@@ -40,7 +40,7 @@
             this.aloCategoria = new System.Windows.Forms.TextBox();
             this.buttonActualizarAlojamiento = new System.Windows.Forms.Button();
             this.buttonEliminaAlojamiento = new System.Windows.Forms.Button();
-            this.alojlabel = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.ComboBoxAlojamiento = new System.Windows.Forms.ComboBox();
             this.aloID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,7 +58,7 @@
             this.buttonAlojamientoVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonAlojamientoVolver.TabIndex = 50;
             this.buttonAlojamientoVolver.UseVisualStyleBackColor = false;
-            this.buttonAlojamientoVolver.Click += new System.EventHandler(this.buttonOrganismoVolver_Click);
+            this.buttonAlojamientoVolver.Click += new System.EventHandler(this.buttonAlojamientoVolver_Click);
             // 
             // buttonLimpiaAlojamiento
             // 
@@ -70,7 +70,7 @@
             this.buttonLimpiaAlojamiento.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaAlojamiento.TabIndex = 49;
             this.buttonLimpiaAlojamiento.UseVisualStyleBackColor = true;
-            this.buttonLimpiaAlojamiento.Click += new System.EventHandler(this.buttonLimpiaOrganismo_Click);
+            this.buttonLimpiaAlojamiento.Click += new System.EventHandler(this.buttonLimpiaAlojamiento_Click);
             // 
             // label5
             // 
@@ -81,7 +81,6 @@
             this.label5.Size = new System.Drawing.Size(87, 20);
             this.label5.TabIndex = 48;
             this.label5.Text = "Categoría";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -92,7 +91,6 @@
             this.label4.Size = new System.Drawing.Size(94, 20);
             this.label4.TabIndex = 47;
             this.label4.Text = "Capacidad";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label2
             // 
@@ -103,7 +101,6 @@
             this.label2.Size = new System.Drawing.Size(152, 20);
             this.label2.TabIndex = 46;
             this.label2.Text = "Código de Parque";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -114,7 +111,6 @@
             this.label3.Size = new System.Drawing.Size(117, 20);
             this.label3.TabIndex = 45;
             this.label3.Text = "Identificación";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // buttonGuardaAlojamiento
             // 
@@ -126,7 +122,7 @@
             this.buttonGuardaAlojamiento.Size = new System.Drawing.Size(67, 60);
             this.buttonGuardaAlojamiento.TabIndex = 44;
             this.buttonGuardaAlojamiento.UseVisualStyleBackColor = true;
-            this.buttonGuardaAlojamiento.Click += new System.EventHandler(this.buttonGuardaOrganismo_Click);
+            this.buttonGuardaAlojamiento.Click += new System.EventHandler(this.buttonGuardaAlojamiento_Click);
             // 
             // aloCapacidad
             // 
@@ -135,7 +131,7 @@
             this.aloCapacidad.Name = "aloCapacidad";
             this.aloCapacidad.Size = new System.Drawing.Size(197, 20);
             this.aloCapacidad.TabIndex = 42;
-            this.aloCapacidad.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.aloCapacidad.TextChanged += new System.EventHandler(this.aloCapacidad_TextChanged);
             // 
             // aloCategoria
             // 
@@ -144,7 +140,7 @@
             this.aloCategoria.Name = "aloCategoria";
             this.aloCategoria.Size = new System.Drawing.Size(197, 20);
             this.aloCategoria.TabIndex = 41;
-            this.aloCategoria.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.aloCategoria.TextChanged += new System.EventHandler(this.aloCategoria_TextChanged);
             // 
             // buttonActualizarAlojamiento
             // 
@@ -156,7 +152,7 @@
             this.buttonActualizarAlojamiento.Size = new System.Drawing.Size(67, 60);
             this.buttonActualizarAlojamiento.TabIndex = 40;
             this.buttonActualizarAlojamiento.UseVisualStyleBackColor = true;
-            this.buttonActualizarAlojamiento.Click += new System.EventHandler(this.buttonActualizarOrganismo_Click);
+            this.buttonActualizarAlojamiento.Click += new System.EventHandler(this.buttonActualizarAlojamiento_Click);
             // 
             // buttonEliminaAlojamiento
             // 
@@ -170,18 +166,17 @@
             this.buttonEliminaAlojamiento.Size = new System.Drawing.Size(67, 60);
             this.buttonEliminaAlojamiento.TabIndex = 39;
             this.buttonEliminaAlojamiento.UseVisualStyleBackColor = false;
-            this.buttonEliminaAlojamiento.Click += new System.EventHandler(this.buttonEliminaOrganismo_Click);
+            this.buttonEliminaAlojamiento.Click += new System.EventHandler(this.buttonEliminaAlojamiento_Click);
             // 
             // alojlabel
             // 
-            this.alojlabel.AutoSize = true;
-            this.alojlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.alojlabel.Location = new System.Drawing.Point(110, 171);
-            this.alojlabel.Name = "alojlabel";
-            this.alojlabel.Size = new System.Drawing.Size(93, 20);
-            this.alojlabel.TabIndex = 38;
-            this.alojlabel.Text = "Existentes";
-            this.alojlabel.Click += new System.EventHandler(this.orglabel_Click);
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(110, 171);
+            this.label6.Name = "alojlabel";
+            this.label6.Size = new System.Drawing.Size(93, 20);
+            this.label6.TabIndex = 38;
+            this.label6.Text = "Existentes";
             // 
             // ComboBoxAlojamiento
             // 
@@ -196,7 +191,7 @@
             this.ComboBoxAlojamiento.Size = new System.Drawing.Size(177, 26);
             this.ComboBoxAlojamiento.TabIndex = 37;
             this.ComboBoxAlojamiento.Tag = "";
-            this.ComboBoxAlojamiento.SelectedIndexChanged += new System.EventHandler(this.ComboBoxOrganismo_SelectedIndexChanged);
+            this.ComboBoxAlojamiento.SelectedIndexChanged += new System.EventHandler(this.ComboBoxAlojamiento_SelectedIndexChanged);
             // 
             // aloID
             // 
@@ -205,7 +200,7 @@
             this.aloID.Name = "aloID";
             this.aloID.Size = new System.Drawing.Size(197, 20);
             this.aloID.TabIndex = 36;
-            this.aloID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.aloID.TextChanged += new System.EventHandler(this.aloID_TextChanged);
             // 
             // label1
             // 
@@ -216,7 +211,6 @@
             this.label1.Size = new System.Drawing.Size(181, 31);
             this.label1.TabIndex = 35;
             this.label1.Text = "Alojamientos";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // aloComboBoxParque
             // 
@@ -249,7 +243,7 @@
             this.Controls.Add(this.aloCategoria);
             this.Controls.Add(this.buttonActualizarAlojamiento);
             this.Controls.Add(this.buttonEliminaAlojamiento);
-            this.Controls.Add(this.alojlabel);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.ComboBoxAlojamiento);
             this.Controls.Add(this.aloID);
             this.Controls.Add(this.label1);
@@ -274,7 +268,7 @@
         private System.Windows.Forms.TextBox aloCategoria;
         private System.Windows.Forms.Button buttonActualizarAlojamiento;
         private System.Windows.Forms.Button buttonEliminaAlojamiento;
-        private System.Windows.Forms.Label alojlabel;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox ComboBoxAlojamiento;
         private System.Windows.Forms.TextBox aloID;
         private System.Windows.Forms.Label label1;

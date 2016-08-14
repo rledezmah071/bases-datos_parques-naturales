@@ -63,6 +63,16 @@ namespace ProyectoFinal.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagenInicio {
+            get {
+                object obj = ResourceManager.GetObject("imagenInicio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pink_Floyd___The_Dark_Side_Of_The_Moon {
             get {
                 object obj = ResourceManager.GetObject("Pink_Floyd_-_The_Dark_Side_Of_The_Moon", resourceCulture);

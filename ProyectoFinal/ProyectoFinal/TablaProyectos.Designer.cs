@@ -34,7 +34,7 @@
             this.proyComboBoxCodInvestigador = new System.Windows.Forms.ComboBox();
             this.buttonProyectosVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaProyectos = new System.Windows.Forms.Button();
-            this.Presupuesto = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,7 +43,7 @@
             this.proyPresupuesto = new System.Windows.Forms.TextBox();
             this.buttonActualizarProyectos = new System.Windows.Forms.Button();
             this.buttonEliminaProyectos = new System.Windows.Forms.Button();
-            this.comlabel = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.ComboBoxProyectos = new System.Windows.Forms.ComboBox();
             this.proyID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -108,13 +108,13 @@
             // 
             // Presupuesto
             // 
-            this.Presupuesto.AutoSize = true;
-            this.Presupuesto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.Presupuesto.Location = new System.Drawing.Point(480, 157);
-            this.Presupuesto.Name = "Presupuesto";
-            this.Presupuesto.Size = new System.Drawing.Size(110, 20);
-            this.Presupuesto.TabIndex = 82;
-            this.Presupuesto.Text = "Presupuesto";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(480, 157);
+            this.label7.Name = "Presupuesto";
+            this.label7.Size = new System.Drawing.Size(110, 20);
+            this.label7.TabIndex = 82;
+            this.label7.Text = "Presupuesto";
             // 
             // label4
             // 
@@ -199,13 +199,13 @@
             // 
             // comlabel
             // 
-            this.comlabel.AutoSize = true;
-            this.comlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.comlabel.Location = new System.Drawing.Point(105, 170);
-            this.comlabel.Name = "comlabel";
-            this.comlabel.Size = new System.Drawing.Size(93, 20);
-            this.comlabel.TabIndex = 73;
-            this.comlabel.Text = "Existentes";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(105, 170);
+            this.label5.Name = "comlabel";
+            this.label5.Size = new System.Drawing.Size(93, 20);
+            this.label5.TabIndex = 73;
+            this.label5.Text = "Existentes";
             // 
             // ComboBoxProyectos
             // 
@@ -248,7 +248,7 @@
             this.Controls.Add(this.proyComboBoxCodInvestigador);
             this.Controls.Add(this.buttonProyectosVolver);
             this.Controls.Add(this.buttonLimpiaProyectos);
-            this.Controls.Add(this.Presupuesto);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -257,7 +257,7 @@
             this.Controls.Add(this.proyPresupuesto);
             this.Controls.Add(this.buttonActualizarProyectos);
             this.Controls.Add(this.buttonEliminaProyectos);
-            this.Controls.Add(this.comlabel);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.ComboBoxProyectos);
             this.Controls.Add(this.proyID);
             this.Controls.Add(this.label1);
@@ -276,7 +276,7 @@
         private System.Windows.Forms.ComboBox proyComboBoxCodInvestigador;
         private System.Windows.Forms.Button buttonProyectosVolver;
         private System.Windows.Forms.Button buttonLimpiaProyectos;
-        private System.Windows.Forms.Label Presupuesto;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -285,7 +285,7 @@
         private System.Windows.Forms.TextBox proyPresupuesto;
         private System.Windows.Forms.Button buttonActualizarProyectos;
         private System.Windows.Forms.Button buttonEliminaProyectos;
-        private System.Windows.Forms.Label comlabel;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox ComboBoxProyectos;
         private System.Windows.Forms.TextBox proyID;
         private System.Windows.Forms.Label label1;

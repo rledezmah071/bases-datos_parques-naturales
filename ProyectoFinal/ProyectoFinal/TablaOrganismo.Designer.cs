@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.orgID = new System.Windows.Forms.TextBox();
             this.ComboBoxOrganismo = new System.Windows.Forms.ComboBox();
-            this.orglabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.buttonEliminaOrganismo = new System.Windows.Forms.Button();
             this.buttonActualizarOrganismo = new System.Windows.Forms.Button();
             this.orgNombre = new System.Windows.Forms.TextBox();
@@ -62,7 +62,6 @@
             this.orgID.Name = "orgID";
             this.orgID.Size = new System.Drawing.Size(197, 20);
             this.orgID.TabIndex = 5;
-            this.orgID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ComboBoxOrganismo
             // 
@@ -80,14 +79,13 @@
             // 
             // orglabel
             // 
-            this.orglabel.AutoSize = true;
-            this.orglabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.orglabel.Location = new System.Drawing.Point(112, 171);
-            this.orglabel.Name = "orglabel";
-            this.orglabel.Size = new System.Drawing.Size(93, 20);
-            this.orglabel.TabIndex = 20;
-            this.orglabel.Text = "Existentes";
-            this.orglabel.Click += new System.EventHandler(this.invConsultar_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(112, 171);
+            this.label2.Name = "orglabel";
+            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "Existentes";
             // 
             // buttonEliminaOrganismo
             // 
@@ -101,7 +99,6 @@
             this.buttonEliminaOrganismo.Size = new System.Drawing.Size(67, 60);
             this.buttonEliminaOrganismo.TabIndex = 22;
             this.buttonEliminaOrganismo.UseVisualStyleBackColor = false;
-            this.buttonEliminaOrganismo.Click += new System.EventHandler(this.button5_Click);
             // 
             // buttonActualizarOrganismo
             // 
@@ -113,7 +110,6 @@
             this.buttonActualizarOrganismo.Size = new System.Drawing.Size(67, 60);
             this.buttonActualizarOrganismo.TabIndex = 23;
             this.buttonActualizarOrganismo.UseVisualStyleBackColor = true;
-            this.buttonActualizarOrganismo.Click += new System.EventHandler(this.button1_Click);
             // 
             // orgNombre
             // 
@@ -141,7 +137,6 @@
             this.buttonGuardaOrganismo.Size = new System.Drawing.Size(67, 60);
             this.buttonGuardaOrganismo.TabIndex = 27;
             this.buttonGuardaOrganismo.UseVisualStyleBackColor = true;
-            this.buttonGuardaOrganismo.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label3
             // 
@@ -183,7 +178,7 @@
             this.buttonLimpiaOrganismo.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaOrganismo.TabIndex = 33;
             this.buttonLimpiaOrganismo.UseVisualStyleBackColor = true;
-            this.buttonLimpiaOrganismo.Click += new System.EventHandler(this.button1_Click_2);
+            this.buttonLimpiaOrganismo.Click += new System.EventHandler(this.buttonLimpiaOrganismo1_Click);
             // 
             // buttonOrganismoVolver
             // 
@@ -213,7 +208,7 @@
             this.Controls.Add(this.orgNombre);
             this.Controls.Add(this.buttonActualizarOrganismo);
             this.Controls.Add(this.buttonEliminaOrganismo);
-            this.Controls.Add(this.orglabel);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.ComboBoxOrganismo);
             this.Controls.Add(this.orgID);
             this.Controls.Add(this.label1);
@@ -230,7 +225,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox orgID;
         private System.Windows.Forms.ComboBox ComboBoxOrganismo;
-        private System.Windows.Forms.Label orglabel;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonEliminaOrganismo;
         private System.Windows.Forms.Button buttonActualizarOrganismo;
         private System.Windows.Forms.TextBox orgNombre;

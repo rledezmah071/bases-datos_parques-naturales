@@ -43,7 +43,7 @@
             this.persFecha = new System.Windows.Forms.TextBox();
             this.buttonActualizarPersonal = new System.Windows.Forms.Button();
             this.buttonEliminaPersonal = new System.Windows.Forms.Button();
-            this.exclabel = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.ComboBoxPersonal = new System.Windows.Forms.ComboBox();
             this.persID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,7 +51,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.perscomboBoxProyecto = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.Salario = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.persSalario = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.persTelMovil = new System.Windows.Forms.TextBox();
@@ -208,13 +208,13 @@
             // 
             // exclabel
             // 
-            this.exclabel.AutoSize = true;
-            this.exclabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.exclabel.Location = new System.Drawing.Point(110, 171);
-            this.exclabel.Name = "exclabel";
-            this.exclabel.Size = new System.Drawing.Size(93, 20);
-            this.exclabel.TabIndex = 73;
-            this.exclabel.Text = "Existentes";
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label10.Location = new System.Drawing.Point(110, 171);
+            this.label10.Name = "exclabel";
+            this.label10.Size = new System.Drawing.Size(93, 20);
+            this.label10.TabIndex = 73;
+            this.label10.Text = "Existentes";
             // 
             // ComboBoxPersonal
             // 
@@ -298,13 +298,13 @@
             // 
             // Salario
             // 
-            this.Salario.AutoSize = true;
-            this.Salario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.Salario.Location = new System.Drawing.Point(550, 206);
-            this.Salario.Name = "Salario";
-            this.Salario.Size = new System.Drawing.Size(65, 20);
-            this.Salario.TabIndex = 93;
-            this.Salario.Text = "Salario";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(550, 206);
+            this.label8.Name = "Salario";
+            this.label8.Size = new System.Drawing.Size(65, 20);
+            this.label8.TabIndex = 93;
+            this.label8.Text = "Salario";
             // 
             // persSalario
             // 
@@ -323,7 +323,6 @@
             this.label9.Size = new System.Drawing.Size(124, 20);
             this.label9.TabIndex = 95;
             this.label9.Text = "Teléfono Móvil";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // persTelMovil
             // 
@@ -340,7 +339,7 @@
             this.ClientSize = new System.Drawing.Size(884, 511);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.persTelMovil);
-            this.Controls.Add(this.Salario);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.persSalario);
             this.Controls.Add(this.perscomboBoxProyecto);
             this.Controls.Add(this.label7);
@@ -360,7 +359,7 @@
             this.Controls.Add(this.persFecha);
             this.Controls.Add(this.buttonActualizarPersonal);
             this.Controls.Add(this.buttonEliminaPersonal);
-            this.Controls.Add(this.exclabel);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.ComboBoxPersonal);
             this.Controls.Add(this.persID);
             this.Controls.Add(this.label1);
@@ -387,7 +386,7 @@
         private System.Windows.Forms.TextBox persFecha;
         private System.Windows.Forms.Button buttonActualizarPersonal;
         private System.Windows.Forms.Button buttonEliminaPersonal;
-        private System.Windows.Forms.Label exclabel;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox ComboBoxPersonal;
         private System.Windows.Forms.TextBox persID;
         private System.Windows.Forms.Label label1;
@@ -398,6 +397,6 @@
         private System.Windows.Forms.TextBox persSalario;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox persTelMovil;
-        private System.Windows.Forms.Label Salario;
+        private System.Windows.Forms.Label label8;
     }
 }

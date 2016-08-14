@@ -32,14 +32,14 @@
             this.buttonParqueNaturalVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaParqueNatural = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.labelapellido = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonGuardaParqueNatural = new System.Windows.Forms.Button();
             this.parqueFecha = new System.Windows.Forms.TextBox();
             this.parqueNombre = new System.Windows.Forms.TextBox();
             this.buttonActualizarParqueNatural = new System.Windows.Forms.Button();
             this.buttonEliminaParqueNatural = new System.Windows.Forms.Button();
-            this.ParNatlabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.ComboBoxParqueNatural = new System.Windows.Forms.ComboBox();
             this.parqueID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -82,13 +82,13 @@
             // 
             // labelapellido
             // 
-            this.labelapellido.AutoSize = true;
-            this.labelapellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.labelapellido.Location = new System.Drawing.Point(438, 209);
-            this.labelapellido.Name = "labelapellido";
-            this.labelapellido.Size = new System.Drawing.Size(173, 20);
-            this.labelapellido.TabIndex = 100;
-            this.labelapellido.Text = "Fecha de Fundación";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(438, 209);
+            this.label4.Name = "labelapellido";
+            this.label4.Size = new System.Drawing.Size(173, 20);
+            this.label4.TabIndex = 100;
+            this.label4.Text = "Fecha de Fundación";
             // 
             // label3
             // 
@@ -153,13 +153,13 @@
             // 
             // ParNatlabel
             // 
-            this.ParNatlabel.AutoSize = true;
-            this.ParNatlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.ParNatlabel.Location = new System.Drawing.Point(110, 171);
-            this.ParNatlabel.Name = "ParNatlabel";
-            this.ParNatlabel.Size = new System.Drawing.Size(93, 20);
-            this.ParNatlabel.TabIndex = 92;
-            this.ParNatlabel.Text = "Existentes";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(110, 171);
+            this.label2.Name = "ParNatlabel";
+            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.TabIndex = 92;
+            this.label2.Text = "Existentes";
             // 
             // ComboBoxParqueNatural
             // 
@@ -201,14 +201,14 @@
             this.Controls.Add(this.buttonParqueNaturalVolver);
             this.Controls.Add(this.buttonLimpiaParqueNatural);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.labelapellido);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonGuardaParqueNatural);
             this.Controls.Add(this.parqueFecha);
             this.Controls.Add(this.parqueNombre);
             this.Controls.Add(this.buttonActualizarParqueNatural);
             this.Controls.Add(this.buttonEliminaParqueNatural);
-            this.Controls.Add(this.ParNatlabel);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.ComboBoxParqueNatural);
             this.Controls.Add(this.parqueID);
             this.Controls.Add(this.label1);
@@ -224,14 +224,14 @@
         private System.Windows.Forms.Button buttonParqueNaturalVolver;
         private System.Windows.Forms.Button buttonLimpiaParqueNatural;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label labelapellido;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonGuardaParqueNatural;
         private System.Windows.Forms.TextBox parqueFecha;
         private System.Windows.Forms.TextBox parqueNombre;
         private System.Windows.Forms.Button buttonActualizarParqueNatural;
         private System.Windows.Forms.Button buttonEliminaParqueNatural;
-        private System.Windows.Forms.Label ParNatlabel;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox ComboBoxParqueNatural;
         private System.Windows.Forms.TextBox parqueID;
         private System.Windows.Forms.Label label1;

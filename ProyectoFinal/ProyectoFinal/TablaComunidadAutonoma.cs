@@ -23,11 +23,6 @@ namespace ProyectoFinal
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonComunidadVolver_Click(object sender, EventArgs e)
         {
             this.Hide();

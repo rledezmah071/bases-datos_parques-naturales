@@ -31,15 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaTipoDePersonal));
             this.buttonTipoPersonalVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaTipoPersonal = new System.Windows.Forms.Button();
-            this.Nombretp = new System.Windows.Forms.Label();
-            this.textvisNombre = new System.Windows.Forms.Label();
-            this.textvisID = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.buttonGuardaTipoPersonal = new System.Windows.Forms.Button();
             this.tipoperDescripción = new System.Windows.Forms.TextBox();
             this.tipoperNombre = new System.Windows.Forms.TextBox();
             this.buttonActualizarTipoPersonal = new System.Windows.Forms.Button();
             this.buttonEliminaTipoPersonal = new System.Windows.Forms.Button();
-            this.tplabel = new System.Windows.Forms.Label();
+            this.lable2 = new System.Windows.Forms.Label();
             this.ComboBoxTipoPersonal = new System.Windows.Forms.ComboBox();
             this.tipoperID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,33 +72,33 @@
             // 
             // Nombretp
             // 
-            this.Nombretp.AutoSize = true;
-            this.Nombretp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.Nombretp.Location = new System.Drawing.Point(491, 187);
-            this.Nombretp.Name = "Nombretp";
-            this.Nombretp.Size = new System.Drawing.Size(71, 20);
-            this.Nombretp.TabIndex = 120;
-            this.Nombretp.Text = "Nombre";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(491, 187);
+            this.label5.Name = "Nombretp";
+            this.label5.Size = new System.Drawing.Size(71, 20);
+            this.label5.TabIndex = 120;
+            this.label5.Text = "Nombre";
             // 
             // textvisNombre
             // 
-            this.textvisNombre.AutoSize = true;
-            this.textvisNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.textvisNombre.Location = new System.Drawing.Point(459, 230);
-            this.textvisNombre.Name = "textvisNombre";
-            this.textvisNombre.Size = new System.Drawing.Size(103, 20);
-            this.textvisNombre.TabIndex = 119;
-            this.textvisNombre.Text = "Descripción";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(459, 230);
+            this.label4.Name = "textvisNombre";
+            this.label4.Size = new System.Drawing.Size(103, 20);
+            this.label4.TabIndex = 119;
+            this.label4.Text = "Descripción";
             // 
             // textvisID
             // 
-            this.textvisID.AutoSize = true;
-            this.textvisID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.textvisID.Location = new System.Drawing.Point(445, 146);
-            this.textvisID.Name = "textvisID";
-            this.textvisID.Size = new System.Drawing.Size(117, 20);
-            this.textvisID.TabIndex = 117;
-            this.textvisID.Text = "Identificación";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(445, 146);
+            this.label3.Name = "textvisID";
+            this.label3.Size = new System.Drawing.Size(117, 20);
+            this.label3.TabIndex = 117;
+            this.label3.Text = "Identificación";
             // 
             // buttonGuardaTipoPersonal
             // 
@@ -153,13 +153,13 @@
             // 
             // tplabel
             // 
-            this.tplabel.AutoSize = true;
-            this.tplabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.tplabel.Location = new System.Drawing.Point(107, 170);
-            this.tplabel.Name = "tplabel";
-            this.tplabel.Size = new System.Drawing.Size(93, 20);
-            this.tplabel.TabIndex = 111;
-            this.tplabel.Text = "Existentes";
+            this.lable2.AutoSize = true;
+            this.lable2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.lable2.Location = new System.Drawing.Point(107, 170);
+            this.lable2.Name = "tplabel";
+            this.lable2.Size = new System.Drawing.Size(93, 20);
+            this.lable2.TabIndex = 111;
+            this.lable2.Text = "Existentes";
             // 
             // ComboBoxTipoPersonal
             // 
@@ -199,15 +199,15 @@
             this.ClientSize = new System.Drawing.Size(884, 511);
             this.Controls.Add(this.buttonTipoPersonalVolver);
             this.Controls.Add(this.buttonLimpiaTipoPersonal);
-            this.Controls.Add(this.Nombretp);
-            this.Controls.Add(this.textvisNombre);
-            this.Controls.Add(this.textvisID);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonGuardaTipoPersonal);
             this.Controls.Add(this.tipoperDescripción);
             this.Controls.Add(this.tipoperNombre);
             this.Controls.Add(this.buttonActualizarTipoPersonal);
             this.Controls.Add(this.buttonEliminaTipoPersonal);
-            this.Controls.Add(this.tplabel);
+            this.Controls.Add(this.lable2);
             this.Controls.Add(this.ComboBoxTipoPersonal);
             this.Controls.Add(this.tipoperID);
             this.Controls.Add(this.label1);
@@ -223,15 +223,15 @@
 
         private System.Windows.Forms.Button buttonTipoPersonalVolver;
         private System.Windows.Forms.Button buttonLimpiaTipoPersonal;
-        private System.Windows.Forms.Label Nombretp;
-        private System.Windows.Forms.Label textvisNombre;
-        private System.Windows.Forms.Label textvisID;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonGuardaTipoPersonal;
         private System.Windows.Forms.TextBox tipoperDescripción;
         private System.Windows.Forms.TextBox tipoperNombre;
         private System.Windows.Forms.Button buttonActualizarTipoPersonal;
         private System.Windows.Forms.Button buttonEliminaTipoPersonal;
-        private System.Windows.Forms.Label tplabel;
+        private System.Windows.Forms.Label lable2;
         private System.Windows.Forms.ComboBox ComboBoxTipoPersonal;
         private System.Windows.Forms.TextBox tipoperID;
         private System.Windows.Forms.Label label1;

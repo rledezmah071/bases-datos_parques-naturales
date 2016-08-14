@@ -17,23 +17,13 @@ namespace ProyectoFinal
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
         }
-
-        private void GestVisit_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void MenuRecursosHumanos_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void buttonMenuAdmVolver_Click(object sender, EventArgs e)
+        private void buttonMenuRHVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
             InicioSesion InicioSesion = new InicioSesion();

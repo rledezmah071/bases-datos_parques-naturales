@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuInvestigador));
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonMenuAdmVolver = new System.Windows.Forms.Button();
-            this.invConsultar = new System.Windows.Forms.Label();
+            this.buttonMenuInvVolver = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.invComboBoxConsultar = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -45,29 +45,28 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Menú Principal";
             // 
-            // buttonMenuAdmVolver
+            // buttonMenuInvVolver
             // 
-            this.buttonMenuAdmVolver.BackColor = System.Drawing.SystemColors.Control;
-            this.buttonMenuAdmVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMenuAdmVolver.BackgroundImage")));
-            this.buttonMenuAdmVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonMenuAdmVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMenuAdmVolver.Location = new System.Drawing.Point(12, 12);
-            this.buttonMenuAdmVolver.Name = "buttonMenuAdmVolver";
-            this.buttonMenuAdmVolver.Size = new System.Drawing.Size(67, 60);
-            this.buttonMenuAdmVolver.TabIndex = 17;
-            this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
-            this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click);
+            this.buttonMenuInvVolver.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonMenuInvVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMenuInvVolver.BackgroundImage")));
+            this.buttonMenuInvVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonMenuInvVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMenuInvVolver.Location = new System.Drawing.Point(12, 12);
+            this.buttonMenuInvVolver.Name = "buttonMenuInvVolver";
+            this.buttonMenuInvVolver.Size = new System.Drawing.Size(67, 60);
+            this.buttonMenuInvVolver.TabIndex = 17;
+            this.buttonMenuInvVolver.UseVisualStyleBackColor = false;
+            this.buttonMenuInvVolver.Click += new System.EventHandler(this.buttonMenuInvVolver_Click);
             // 
-            // invConsultar
+            // label2
             // 
-            this.invConsultar.AutoSize = true;
-            this.invConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.invConsultar.Location = new System.Drawing.Point(91, 166);
-            this.invConsultar.Name = "invConsultar";
-            this.invConsultar.Size = new System.Drawing.Size(114, 26);
-            this.invConsultar.TabIndex = 19;
-            this.invConsultar.Text = "Consultar";
-            this.invConsultar.Click += new System.EventHandler(this.admConsultar_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(91, 166);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(114, 26);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Consultar";
             // 
             // invComboBoxConsultar
             // 
@@ -85,7 +84,7 @@
             this.invComboBoxConsultar.Size = new System.Drawing.Size(177, 26);
             this.invComboBoxConsultar.TabIndex = 18;
             this.invComboBoxConsultar.Tag = "";
-            this.invComboBoxConsultar.SelectedIndexChanged += new System.EventHandler(this.admComboBoxConsultar_SelectedIndexChanged);
+            this.invComboBoxConsultar.SelectedIndexChanged += new System.EventHandler(this.invComboBoxConsultar_SelectedIndexChanged);
             // 
             // MenuInvestigador
             // 
@@ -94,9 +93,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(884, 511);
-            this.Controls.Add(this.invConsultar);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.invComboBoxConsultar);
-            this.Controls.Add(this.buttonMenuAdmVolver);
+            this.Controls.Add(this.buttonMenuInvVolver);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "MenuInvestigador";
@@ -110,8 +109,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonMenuAdmVolver;
-        private System.Windows.Forms.Label invConsultar;
+        private System.Windows.Forms.Button buttonMenuInvVolver;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox invComboBoxConsultar;
     }
 }

@@ -18,18 +18,6 @@ namespace ProyectoFinal
             StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            InicioSesion InicioSesion = new InicioSesion();
-
-            InicioSesion.ShowDialog();
-        }
-
-        private void admConsultar_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void MenuGestor_Load(object sender, EventArgs e)
         {
 
@@ -40,11 +28,6 @@ namespace ProyectoFinal
             this.Hide();
             InicioSesion InicioSesion = new InicioSesion();
             InicioSesion.ShowDialog();
-        }
-
-        private void admComboBoxConsultar_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void GestorBtnVisitantes_Click(object sender, EventArgs e)

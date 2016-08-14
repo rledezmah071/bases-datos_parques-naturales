@@ -39,7 +39,7 @@
             this.espTipoEspecie = new System.Windows.Forms.TextBox();
             this.buttonActualizarEspecies = new System.Windows.Forms.Button();
             this.buttonEliminaEspecies = new System.Windows.Forms.Button();
-            this.alojlabel = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.ComboBoxEspecies = new System.Windows.Forms.ComboBox();
             this.espID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -167,13 +167,13 @@
             // 
             // alojlabel
             // 
-            this.alojlabel.AutoSize = true;
-            this.alojlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.alojlabel.Location = new System.Drawing.Point(109, 171);
-            this.alojlabel.Name = "alojlabel";
-            this.alojlabel.Size = new System.Drawing.Size(93, 20);
-            this.alojlabel.TabIndex = 55;
-            this.alojlabel.Text = "Existentes";
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label13.Location = new System.Drawing.Point(109, 171);
+            this.label13.Name = "alojlabel";
+            this.label13.Size = new System.Drawing.Size(93, 20);
+            this.label13.TabIndex = 55;
+            this.label13.Text = "Existentes";
             // 
             // ComboBoxEspecies
             // 
@@ -234,7 +234,6 @@
             this.label7.Size = new System.Drawing.Size(182, 20);
             this.label7.TabIndex = 71;
             this.label7.Text = "Número de Individuos";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // espNumeroIndividuos
             // 
@@ -253,7 +252,6 @@
             this.label8.Size = new System.Drawing.Size(83, 20);
             this.label8.TabIndex = 73;
             this.label8.Text = "Floración";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // espFloracion
             // 
@@ -364,7 +362,7 @@
             this.Controls.Add(this.espTipoEspecie);
             this.Controls.Add(this.buttonActualizarEspecies);
             this.Controls.Add(this.buttonEliminaEspecies);
-            this.Controls.Add(this.alojlabel);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.ComboBoxEspecies);
             this.Controls.Add(this.espID);
             this.Controls.Add(this.label1);
@@ -387,7 +385,7 @@
         private System.Windows.Forms.TextBox espTipoEspecie;
         private System.Windows.Forms.Button buttonActualizarEspecies;
         private System.Windows.Forms.Button buttonEliminaEspecies;
-        private System.Windows.Forms.Label alojlabel;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox ComboBoxEspecies;
         private System.Windows.Forms.TextBox espID;
         private System.Windows.Forms.Label label1;

@@ -73,6 +73,7 @@
     <Compile Include="BotonInvisible.Designer.cs">
       <DependentUpon>BotonInvisible.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controlador.cs" />
     <Compile Include="TablaAlojamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -286,6 +287,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\transparent___png_background_by_anangelfromhell-d5ug2ks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagenInicio.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

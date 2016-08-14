@@ -18,12 +18,7 @@ namespace ProyectoFinal
             StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonLimpiaOrganismo_Click(object sender, EventArgs e)
+        private void buttonLimpiaAlojamiento_Click(object sender, EventArgs e)
         {
             aloCategoria.Clear();
             aloID.Clear();
@@ -32,72 +27,42 @@ namespace ProyectoFinal
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void buttonGuardaAlojamiento_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void aloCapacidad_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void aloCategoria_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void buttonActualizarAlojamiento_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void buttonGuardaOrganismo_Click(object sender, EventArgs e)
+        private void buttonEliminaAlojamiento_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void ComboBoxAlojamiento_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void aloID_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonActualizarOrganismo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonEliminaOrganismo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void orglabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ComboBoxOrganismo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonOrganismoVolver_Click(object sender, EventArgs e)
+        private void buttonAlojamientoVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
