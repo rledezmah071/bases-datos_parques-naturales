@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ProyectoFinal
 {
     public partial class MenuAdministrador : Form
@@ -16,6 +17,7 @@ namespace ProyectoFinal
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
+
 
         }
 
