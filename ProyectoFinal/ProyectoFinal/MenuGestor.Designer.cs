@@ -33,8 +33,8 @@
             this.gestExcursiones = new System.Windows.Forms.Label();
             this.buttonMenuAdmVolver = new System.Windows.Forms.Button();
             this.GestAlojamiento = new System.Windows.Forms.Label();
-            this.buttonConsultaExcursion = new System.Windows.Forms.Button();
-            this.buttonConsultaAlojamiento = new System.Windows.Forms.Button();
+            this.buttonConsultaExcursionMG = new System.Windows.Forms.Button();
+            this.buttonConsultaAlojamientoMG = new System.Windows.Forms.Button();
             this.GestorBtnVisitantes = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.MenuGestorexcTipoExcursion = new System.Windows.Forms.TextBox();
@@ -45,15 +45,15 @@
             this.MenuGestorExcHora = new System.Windows.Forms.TextBox();
             this.MenuGestorExcFecha = new System.Windows.Forms.TextBox();
             this.MenuGestorExcID = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.MenuGestorCodAlo = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.aloCapacidad = new System.Windows.Forms.TextBox();
-            this.aloCategoria = new System.Windows.Forms.TextBox();
-            this.aloID = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.MenuGestorAloCapacidad = new System.Windows.Forms.TextBox();
+            this.MenuGestorAloCategoria = new System.Windows.Forms.TextBox();
+            this.MenuGestorAloID = new System.Windows.Forms.TextBox();
+            this.MenuGestorCodParque = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -99,25 +99,25 @@
             this.GestAlojamiento.TabIndex = 16;
             this.GestAlojamiento.Text = "Alojamiento";
             // 
-            // buttonConsultaExcursion
+            // buttonConsultaExcursionMG
             // 
-            this.buttonConsultaExcursion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonConsultaExcursion.Location = new System.Drawing.Point(12, 312);
-            this.buttonConsultaExcursion.Name = "buttonConsultaExcursion";
-            this.buttonConsultaExcursion.Size = new System.Drawing.Size(148, 27);
-            this.buttonConsultaExcursion.TabIndex = 17;
-            this.buttonConsultaExcursion.Text = "Consultar";
-            this.buttonConsultaExcursion.UseVisualStyleBackColor = true;
+            this.buttonConsultaExcursionMG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.buttonConsultaExcursionMG.Location = new System.Drawing.Point(12, 312);
+            this.buttonConsultaExcursionMG.Name = "buttonConsultaExcursionMG";
+            this.buttonConsultaExcursionMG.Size = new System.Drawing.Size(148, 27);
+            this.buttonConsultaExcursionMG.TabIndex = 17;
+            this.buttonConsultaExcursionMG.Text = "Consultar";
+            this.buttonConsultaExcursionMG.UseVisualStyleBackColor = true;
             // 
-            // buttonConsultaAlojamiento
+            // buttonConsultaAlojamientoMG
             // 
-            this.buttonConsultaAlojamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonConsultaAlojamiento.Location = new System.Drawing.Point(727, 289);
-            this.buttonConsultaAlojamiento.Name = "buttonConsultaAlojamiento";
-            this.buttonConsultaAlojamiento.Size = new System.Drawing.Size(148, 28);
-            this.buttonConsultaAlojamiento.TabIndex = 18;
-            this.buttonConsultaAlojamiento.Text = "Consultar";
-            this.buttonConsultaAlojamiento.UseVisualStyleBackColor = true;
+            this.buttonConsultaAlojamientoMG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.buttonConsultaAlojamientoMG.Location = new System.Drawing.Point(727, 289);
+            this.buttonConsultaAlojamientoMG.Name = "buttonConsultaAlojamientoMG";
+            this.buttonConsultaAlojamientoMG.Size = new System.Drawing.Size(148, 28);
+            this.buttonConsultaAlojamientoMG.TabIndex = 18;
+            this.buttonConsultaAlojamientoMG.Text = "Consultar";
+            this.buttonConsultaAlojamientoMG.UseVisualStyleBackColor = true;
             // 
             // GestorBtnVisitantes
             // 
@@ -211,12 +211,12 @@
             this.MenuGestorExcID.Size = new System.Drawing.Size(197, 20);
             this.MenuGestorExcID.TabIndex = 70;
             // 
-            // textBox1
+            // MenuGestorCodAlo
             // 
-            this.textBox1.Location = new System.Drawing.Point(212, 279);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 20);
-            this.textBox1.TabIndex = 80;
+            this.MenuGestorCodAlo.Location = new System.Drawing.Point(212, 279);
+            this.MenuGestorCodAlo.Name = "MenuGestorCodAlo";
+            this.MenuGestorCodAlo.Size = new System.Drawing.Size(144, 20);
+            this.MenuGestorCodAlo.TabIndex = 80;
             // 
             // label7
             // 
@@ -258,36 +258,36 @@
             this.label10.TabIndex = 84;
             this.label10.Text = "Identificación";
             // 
-            // aloCapacidad
+            // MenuGestorAloCapacidad
             // 
-            this.aloCapacidad.BackColor = System.Drawing.SystemColors.Control;
-            this.aloCapacidad.Location = new System.Drawing.Point(675, 214);
-            this.aloCapacidad.Name = "aloCapacidad";
-            this.aloCapacidad.Size = new System.Drawing.Size(197, 20);
-            this.aloCapacidad.TabIndex = 83;
+            this.MenuGestorAloCapacidad.BackColor = System.Drawing.SystemColors.Control;
+            this.MenuGestorAloCapacidad.Location = new System.Drawing.Point(675, 214);
+            this.MenuGestorAloCapacidad.Name = "MenuGestorAloCapacidad";
+            this.MenuGestorAloCapacidad.Size = new System.Drawing.Size(197, 20);
+            this.MenuGestorAloCapacidad.TabIndex = 83;
             // 
-            // aloCategoria
+            // MenuGestorAloCategoria
             // 
-            this.aloCategoria.BackColor = System.Drawing.SystemColors.Control;
-            this.aloCategoria.Location = new System.Drawing.Point(675, 184);
-            this.aloCategoria.Name = "aloCategoria";
-            this.aloCategoria.Size = new System.Drawing.Size(197, 20);
-            this.aloCategoria.TabIndex = 82;
+            this.MenuGestorAloCategoria.BackColor = System.Drawing.SystemColors.Control;
+            this.MenuGestorAloCategoria.Location = new System.Drawing.Point(675, 184);
+            this.MenuGestorAloCategoria.Name = "MenuGestorAloCategoria";
+            this.MenuGestorAloCategoria.Size = new System.Drawing.Size(197, 20);
+            this.MenuGestorAloCategoria.TabIndex = 82;
             // 
-            // aloID
+            // MenuGestorAloID
             // 
-            this.aloID.BackColor = System.Drawing.SystemColors.Control;
-            this.aloID.Location = new System.Drawing.Point(675, 154);
-            this.aloID.Name = "aloID";
-            this.aloID.Size = new System.Drawing.Size(197, 20);
-            this.aloID.TabIndex = 81;
+            this.MenuGestorAloID.BackColor = System.Drawing.SystemColors.Control;
+            this.MenuGestorAloID.Location = new System.Drawing.Point(675, 154);
+            this.MenuGestorAloID.Name = "MenuGestorAloID";
+            this.MenuGestorAloID.Size = new System.Drawing.Size(197, 20);
+            this.MenuGestorAloID.TabIndex = 81;
             // 
-            // textBox2
+            // MenuGestorCodParque
             // 
-            this.textBox2.Location = new System.Drawing.Point(710, 248);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 20);
-            this.textBox2.TabIndex = 88;
+            this.MenuGestorCodParque.Location = new System.Drawing.Point(710, 248);
+            this.MenuGestorCodParque.Name = "MenuGestorCodParque";
+            this.MenuGestorCodParque.Size = new System.Drawing.Size(162, 20);
+            this.MenuGestorCodParque.TabIndex = 88;
             // 
             // MenuGestor
             // 
@@ -296,15 +296,15 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(884, 511);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.MenuGestorCodParque);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.aloCapacidad);
-            this.Controls.Add(this.aloCategoria);
-            this.Controls.Add(this.aloID);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.MenuGestorAloCapacidad);
+            this.Controls.Add(this.MenuGestorAloCategoria);
+            this.Controls.Add(this.MenuGestorAloID);
+            this.Controls.Add(this.MenuGestorCodAlo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.MenuGestorexcTipoExcursion);
             this.Controls.Add(this.label5);
@@ -315,8 +315,8 @@
             this.Controls.Add(this.MenuGestorExcFecha);
             this.Controls.Add(this.MenuGestorExcID);
             this.Controls.Add(this.GestorBtnVisitantes);
-            this.Controls.Add(this.buttonConsultaAlojamiento);
-            this.Controls.Add(this.buttonConsultaExcursion);
+            this.Controls.Add(this.buttonConsultaAlojamientoMG);
+            this.Controls.Add(this.buttonConsultaExcursionMG);
             this.Controls.Add(this.GestAlojamiento);
             this.Controls.Add(this.buttonMenuAdmVolver);
             this.Controls.Add(this.gestExcursiones);
@@ -335,8 +335,8 @@
         private System.Windows.Forms.Label gestExcursiones;
         private System.Windows.Forms.Button buttonMenuAdmVolver;
         private System.Windows.Forms.Label GestAlojamiento;
-        private System.Windows.Forms.Button buttonConsultaExcursion;
-        private System.Windows.Forms.Button buttonConsultaAlojamiento;
+        private System.Windows.Forms.Button buttonConsultaExcursionMG;
+        private System.Windows.Forms.Button buttonConsultaAlojamientoMG;
         private System.Windows.Forms.Button GestorBtnVisitantes;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox MenuGestorexcTipoExcursion;
@@ -347,14 +347,14 @@
         private System.Windows.Forms.TextBox MenuGestorExcHora;
         private System.Windows.Forms.TextBox MenuGestorExcFecha;
         private System.Windows.Forms.TextBox MenuGestorExcID;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox MenuGestorCodAlo;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox aloCapacidad;
-        private System.Windows.Forms.TextBox aloCategoria;
-        private System.Windows.Forms.TextBox aloID;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox MenuGestorAloCapacidad;
+        private System.Windows.Forms.TextBox MenuGestorAloCategoria;
+        private System.Windows.Forms.TextBox MenuGestorAloID;
+        private System.Windows.Forms.TextBox MenuGestorCodParque;
     }
 }
