@@ -46,5 +46,6 @@ namespace ProyectoFinal
             persSalario.Clear();
             persTelCasa.Clear();
             persTelMovil.Clear();
+        }
     }
 }

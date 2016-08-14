@@ -17,7 +17,7 @@ namespace ProyectoFinal
     public partial class InicioSesion : Form
     {
 
-        OracleConnection DatabaseConnection = new OracleConnection();
+      
        
 
         public InicioSesion()
