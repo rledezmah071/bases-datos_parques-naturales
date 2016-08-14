@@ -68,6 +68,7 @@
             this.buttonLimpiaArea.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaArea.TabIndex = 65;
             this.buttonLimpiaArea.UseVisualStyleBackColor = true;
+            this.buttonLimpiaArea.Click += new System.EventHandler(this.buttonLimpiaArea_Click);
             // 
             // label5
             // 

@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaOrganismo));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.orgID = new System.Windows.Forms.TextBox();
             this.ComboBoxOrganismo = new System.Windows.Forms.ComboBox();
             this.orglabel = new System.Windows.Forms.Label();
             this.buttonEliminaOrganismo = new System.Windows.Forms.Button();
             this.buttonActualizarOrganismo = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.orgNombre = new System.Windows.Forms.TextBox();
+            this.orgDireccion = new System.Windows.Forms.TextBox();
             this.buttonGuardaOrganismo = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,14 +55,14 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Organismos";
             // 
-            // textBox1
+            // orgID
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.Location = new System.Drawing.Point(633, 119);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 20);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.orgID.BackColor = System.Drawing.SystemColors.Control;
+            this.orgID.Location = new System.Drawing.Point(633, 119);
+            this.orgID.Name = "orgID";
+            this.orgID.Size = new System.Drawing.Size(197, 20);
+            this.orgID.TabIndex = 5;
+            this.orgID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ComboBoxOrganismo
             // 
@@ -115,21 +115,21 @@
             this.buttonActualizarOrganismo.UseVisualStyleBackColor = true;
             this.buttonActualizarOrganismo.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox2
+            // orgNombre
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.Location = new System.Drawing.Point(633, 173);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(197, 20);
-            this.textBox2.TabIndex = 24;
+            this.orgNombre.BackColor = System.Drawing.SystemColors.Control;
+            this.orgNombre.Location = new System.Drawing.Point(633, 173);
+            this.orgNombre.Name = "orgNombre";
+            this.orgNombre.Size = new System.Drawing.Size(197, 20);
+            this.orgNombre.TabIndex = 24;
             // 
-            // textBox3
+            // orgDireccion
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.Location = new System.Drawing.Point(633, 227);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(197, 20);
-            this.textBox3.TabIndex = 25;
+            this.orgDireccion.BackColor = System.Drawing.SystemColors.Control;
+            this.orgDireccion.Location = new System.Drawing.Point(633, 227);
+            this.orgDireccion.Name = "orgDireccion";
+            this.orgDireccion.Size = new System.Drawing.Size(197, 20);
+            this.orgDireccion.TabIndex = 25;
             // 
             // buttonGuardaOrganismo
             // 
@@ -209,13 +209,13 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonGuardaOrganismo);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.orgDireccion);
+            this.Controls.Add(this.orgNombre);
             this.Controls.Add(this.buttonActualizarOrganismo);
             this.Controls.Add(this.buttonEliminaOrganismo);
             this.Controls.Add(this.orglabel);
             this.Controls.Add(this.ComboBoxOrganismo);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.orgID);
             this.Controls.Add(this.label1);
             this.Name = "TablaOrganismo";
             this.Text = "Organismo";
@@ -228,13 +228,13 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox orgID;
         private System.Windows.Forms.ComboBox ComboBoxOrganismo;
         private System.Windows.Forms.Label orglabel;
         private System.Windows.Forms.Button buttonEliminaOrganismo;
         private System.Windows.Forms.Button buttonActualizarOrganismo;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox orgNombre;
+        private System.Windows.Forms.TextBox orgDireccion;
         private System.Windows.Forms.Button buttonGuardaOrganismo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

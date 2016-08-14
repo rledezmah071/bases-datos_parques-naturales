@@ -34,5 +34,14 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaInvestigador_Click(object sender, EventArgs e)
+        {
+            invID.Clear();
+            invNombre.Clear();
+            invTelefono.Clear();
+            invTitulo.Clear();
+            invApellido.Clear();
+        }
     }
 }

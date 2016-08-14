@@ -17,7 +17,7 @@ namespace ProyectoFinal
     public partial class InicioSesion : Form
     {
 
-        OracleConnection DatabaseConnection = new OracleConnection();
+      
        
 
         public InicioSesion()
@@ -51,6 +51,7 @@ namespace ProyectoFinal
 
         private void buttonIngresar_Click(object sender, EventArgs e)
         {
+
             if (textBox1.Text == ("admin") && (textBox2.Text == ("clave")))
             {
                 this.Hide();

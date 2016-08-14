@@ -24,5 +24,16 @@ namespace ProyectoFinal
             MenuGestor MenuGestor = new MenuGestor();
             MenuGestor.ShowDialog();
         }
+
+        private void buttonLimpiaVisitantesG_Click(object sender, EventArgs e)
+        {
+            visgComboBoxCodAlojamiento.Text = "";
+            visgDNI.Clear();
+            visgDomicilio.Clear();
+            visgID.Clear();
+            visgNombre.Clear();
+            visgProfesion.Clear();
+            
+        }
     }
 }

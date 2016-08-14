@@ -39,5 +39,21 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaEspecies_Click(object sender, EventArgs e)
+        {
+            espFloracion.Clear();
+            espID.Clear();
+            espNombreCientifico.Clear();
+            espNombreVulgar.Clear();
+            espNumeroIndividuos.Clear();
+            espPeriodoCelo.Clear();
+            espPeriodoFloracion.Clear();
+            EspTipoAlimentacion.Clear();
+            espTipoEspecie.Clear();
+            espTipoMineral.Clear();
+
+                
+        }
     }
 }

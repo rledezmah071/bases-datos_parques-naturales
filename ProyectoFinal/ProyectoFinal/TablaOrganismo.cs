@@ -50,7 +50,9 @@ namespace ProyectoFinal
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-
+            orgDireccion.Clear();
+            orgID.Clear();
+            orgNombre.Clear();
         }
 
         private void buttonOrganismoVolver_Click(object sender, EventArgs e)

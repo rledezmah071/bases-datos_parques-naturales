@@ -29,5 +29,12 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaTipoPersonal_Click(object sender, EventArgs e)
+        {
+            tipoperDescripción.Clear();
+            tipoperID.Clear();
+            tipoperNombre.Clear();
+        }
     }
 }

@@ -106,6 +106,7 @@
             this.buttonLimpiaVisitantes.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaVisitantes.TabIndex = 101;
             this.buttonLimpiaVisitantes.UseVisualStyleBackColor = true;
+            this.buttonLimpiaVisitantes.Click += new System.EventHandler(this.buttonLimpiaVisitantes_Click);
             // 
             // extvsiDNI
             // 

@@ -86,6 +86,7 @@
             this.buttonLimpiaComunidadAutonoma.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaComunidadAutonoma.TabIndex = 65;
             this.buttonLimpiaComunidadAutonoma.UseVisualStyleBackColor = true;
+            this.buttonLimpiaComunidadAutonoma.Click += new System.EventHandler(this.buttonLimpiaComunidadAutonoma_Click);
             // 
             // label5
             // 

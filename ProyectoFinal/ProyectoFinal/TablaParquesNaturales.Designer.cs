@@ -68,6 +68,7 @@
             this.buttonLimpiaParqueNatural.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaParqueNatural.TabIndex = 102;
             this.buttonLimpiaParqueNatural.UseVisualStyleBackColor = true;
+            this.buttonLimpiaParqueNatural.Click += new System.EventHandler(this.buttonLimpiaParqueNatural_Click);
             // 
             // label5
             // 

@@ -34,5 +34,18 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaPersonal_Click(object sender, EventArgs e)
+        {
+            perscomboBox1TipoPersonal.Text = "";
+            persComboBoxCodigoParque.Text = "";
+            perscomboBoxProyecto.Text = "";
+            persFecha.Clear();
+            persID.Clear();
+            persNombre.Clear();
+            persSalario.Clear();
+            persTelCasa.Clear();
+            persTelMovil.Clear();
+        }
     }
 }

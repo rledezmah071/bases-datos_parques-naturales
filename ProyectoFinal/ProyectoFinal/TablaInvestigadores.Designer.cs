@@ -38,7 +38,7 @@
             this.textTitulo = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonGuardaInvestigador = new System.Windows.Forms.Button();
-            this.excHora = new System.Windows.Forms.TextBox();
+            this.invApellido = new System.Windows.Forms.TextBox();
             this.invNombre = new System.Windows.Forms.TextBox();
             this.buttonActualizarInvestigador = new System.Windows.Forms.Button();
             this.buttonEliminaInvestigador = new System.Windows.Forms.Button();
@@ -90,6 +90,7 @@
             this.buttonLimpiaInvestigador.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaInvestigador.TabIndex = 83;
             this.buttonLimpiaInvestigador.UseVisualStyleBackColor = true;
+            this.buttonLimpiaInvestigador.Click += new System.EventHandler(this.buttonLimpiaInvestigador_Click);
             // 
             // label5
             // 
@@ -142,13 +143,13 @@
             this.buttonGuardaInvestigador.TabIndex = 78;
             this.buttonGuardaInvestigador.UseVisualStyleBackColor = true;
             // 
-            // excHora
+            // invApellido
             // 
-            this.excHora.BackColor = System.Drawing.SystemColors.Control;
-            this.excHora.Location = new System.Drawing.Point(636, 209);
-            this.excHora.Name = "excHora";
-            this.excHora.Size = new System.Drawing.Size(197, 20);
-            this.excHora.TabIndex = 77;
+            this.invApellido.BackColor = System.Drawing.SystemColors.Control;
+            this.invApellido.Location = new System.Drawing.Point(636, 209);
+            this.invApellido.Name = "invApellido";
+            this.invApellido.Size = new System.Drawing.Size(197, 20);
+            this.invApellido.TabIndex = 77;
             // 
             // invNombre
             // 
@@ -248,7 +249,7 @@
             this.Controls.Add(this.textTitulo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonGuardaInvestigador);
-            this.Controls.Add(this.excHora);
+            this.Controls.Add(this.invApellido);
             this.Controls.Add(this.invNombre);
             this.Controls.Add(this.buttonActualizarInvestigador);
             this.Controls.Add(this.buttonEliminaInvestigador);
@@ -275,7 +276,7 @@
         private System.Windows.Forms.Label textTitulo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonGuardaInvestigador;
-        private System.Windows.Forms.TextBox excHora;
+        private System.Windows.Forms.TextBox invApellido;
         private System.Windows.Forms.TextBox invNombre;
         private System.Windows.Forms.Button buttonActualizarInvestigador;
         private System.Windows.Forms.Button buttonEliminaInvestigador;
