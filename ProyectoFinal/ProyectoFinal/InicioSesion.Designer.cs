@@ -35,7 +35,7 @@
             this.buttonIngresar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.buttonComunidadVolver = new System.Windows.Forms.Button();
+            this.buttonSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -108,18 +108,19 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Contraseña";
             // 
-            // buttonComunidadVolver
+            // buttonSalir
             // 
-            this.buttonComunidadVolver.BackColor = System.Drawing.Color.Transparent;
-            this.buttonComunidadVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonComunidadVolver.BackgroundImage")));
-            this.buttonComunidadVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonComunidadVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonComunidadVolver.Location = new System.Drawing.Point(2, 0);
-            this.buttonComunidadVolver.Name = "buttonComunidadVolver";
-            this.buttonComunidadVolver.Size = new System.Drawing.Size(67, 60);
-            this.buttonComunidadVolver.TabIndex = 67;
-            this.buttonComunidadVolver.UseVisualStyleBackColor = false;
-            this.buttonComunidadVolver.Click += new System.EventHandler(this.buttonComunidadVolver_Click);
+            this.buttonSalir.BackColor = System.Drawing.Color.Gray;
+            this.buttonSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonSalir.ForeColor = System.Drawing.Color.White;
+            this.buttonSalir.Location = new System.Drawing.Point(692, 314);
+            this.buttonSalir.Name = "buttonSalir";
+            this.buttonSalir.Size = new System.Drawing.Size(108, 46);
+            this.buttonSalir.TabIndex = 67;
+            this.buttonSalir.Text = "Salir";
+            this.buttonSalir.UseVisualStyleBackColor = false;
+            this.buttonSalir.Click += new System.EventHandler(this.buttonComunidadVolver_Click);
             // 
             // InicioSesion
             // 
@@ -128,13 +129,14 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(884, 511);
-            this.Controls.Add(this.buttonComunidadVolver);
+            this.Controls.Add(this.buttonSalir);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonIngresar);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "InicioSesion";
             this.Text = "Sistema de Gestión de Parques  Naturales";
             this.Load += new System.EventHandler(this.InicioSesion_Load);
@@ -151,7 +153,7 @@
         private System.Windows.Forms.Button buttonIngresar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button buttonComunidadVolver;
+        private System.Windows.Forms.Button buttonSalir;
     }
 }
 

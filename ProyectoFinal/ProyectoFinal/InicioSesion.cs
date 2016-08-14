@@ -43,6 +43,11 @@ namespace ProyectoFinal
 
         }
 
+        private void buttonComunidadVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void buttonIngresar_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == ("admin") && (textBox2.Text == ("clave")))
@@ -63,14 +68,8 @@ namespace ProyectoFinal
             }
             else 
             {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error!");
+                MessageBox.Show("Usuario y/o contraseña incorrectos", "Error!");
             }
-
-           
-
-            
-           
-         
                
        }
 
@@ -81,4 +80,6 @@ namespace ProyectoFinal
 
       
     }
+
+    
 }

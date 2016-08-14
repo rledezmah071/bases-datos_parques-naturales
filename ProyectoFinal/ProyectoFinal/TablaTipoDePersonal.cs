@@ -20,9 +20,7 @@ namespace ProyectoFinal
 
         private void TipoDePersonal_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            TablaTipoDePersonal TablaTipoDePersonal = new TablaTipoDePersonal();
-            TablaTipoDePersonal.ShowDialog();
+            
         }
 
         private void buttonTipoPersonalVolver_Click(object sender, EventArgs e)
