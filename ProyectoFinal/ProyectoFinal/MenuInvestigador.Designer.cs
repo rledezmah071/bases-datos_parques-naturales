@@ -56,6 +56,7 @@
             this.buttonMenuAdmVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonMenuAdmVolver.TabIndex = 17;
             this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
+            this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click);
             // 
             // invConsultar
             // 

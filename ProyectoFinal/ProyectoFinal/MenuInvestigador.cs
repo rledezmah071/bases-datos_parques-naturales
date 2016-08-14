@@ -34,5 +34,12 @@ namespace ProyectoFinal
             InicioSesion.ShowDialog();
             
         }
+
+        private void buttonMenuAdmVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            InicioSesion InicioSesion = new InicioSesion();
+            InicioSesion.ShowDialog();
+        }
     }
 }
