@@ -132,7 +132,7 @@
             this.button1.Image = global::ProyectoFinal.Properties.Resources.transparent___png_background_by_anangelfromhell_d5ug2ks;
             this.button1.Location = new System.Drawing.Point(51, 393);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(23, 14);
+            this.button1.Size = new System.Drawing.Size(15, 10);
             this.button1.TabIndex = 68;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
