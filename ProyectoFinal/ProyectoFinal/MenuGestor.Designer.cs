@@ -102,7 +102,7 @@
             // buttonConsultaExcursionMG
             // 
             this.buttonConsultaExcursionMG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonConsultaExcursionMG.Location = new System.Drawing.Point(12, 312);
+            this.buttonConsultaExcursionMG.Location = new System.Drawing.Point(49, 318);
             this.buttonConsultaExcursionMG.Name = "buttonConsultaExcursionMG";
             this.buttonConsultaExcursionMG.Size = new System.Drawing.Size(148, 27);
             this.buttonConsultaExcursionMG.TabIndex = 17;
@@ -128,6 +128,7 @@
             this.GestorBtnVisitantes.TabIndex = 19;
             this.GestorBtnVisitantes.Text = "Visitantes";
             this.GestorBtnVisitantes.UseVisualStyleBackColor = true;
+            this.GestorBtnVisitantes.Click += new System.EventHandler(this.GestorBtnVisitantes_Click);
             // 
             // label6
             // 

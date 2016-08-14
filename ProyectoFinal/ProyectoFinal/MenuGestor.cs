@@ -37,6 +37,7 @@ namespace ProyectoFinal
 
         private void buttonMenuAdmVolver_Click(object sender, EventArgs e)
         {
+            this.Hide();
             InicioSesion InicioSesion = new InicioSesion();
             InicioSesion.ShowDialog();
         }
@@ -44,6 +45,13 @@ namespace ProyectoFinal
         private void admComboBoxConsultar_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void GestorBtnVisitantes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TablaVisitante_Gestor TablaVisitante_Gestor = new TablaVisitante_Gestor();
+            TablaVisitante_Gestor.ShowDialog();
         }
     }
 }
