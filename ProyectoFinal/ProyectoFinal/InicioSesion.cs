@@ -45,7 +45,8 @@ namespace ProyectoFinal
 
         private void buttonComunidadVolver_Click(object sender, EventArgs e)
         {
-            this.Close();
+           
+            Application.Exit();
         }
 
         private void buttonIngresar_Click(object sender, EventArgs e)
