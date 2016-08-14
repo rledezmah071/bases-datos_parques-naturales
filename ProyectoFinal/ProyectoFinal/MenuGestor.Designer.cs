@@ -53,7 +53,7 @@
             this.MenuGestorAloCapacidad = new System.Windows.Forms.TextBox();
             this.MenuGestorAloCategoria = new System.Windows.Forms.TextBox();
             this.MenuGestorAloID = new System.Windows.Forms.TextBox();
-            this.MenuGestorCodParque = new System.Windows.Forms.TextBox();
+            this.MenuGestorCodParqued = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -282,12 +282,12 @@
             this.MenuGestorAloID.Size = new System.Drawing.Size(197, 20);
             this.MenuGestorAloID.TabIndex = 81;
             // 
-            // MenuGestorCodParque
+            // MenuGestorCodParqued
             // 
-            this.MenuGestorCodParque.Location = new System.Drawing.Point(710, 248);
-            this.MenuGestorCodParque.Name = "MenuGestorCodParque";
-            this.MenuGestorCodParque.Size = new System.Drawing.Size(162, 20);
-            this.MenuGestorCodParque.TabIndex = 88;
+            this.MenuGestorCodParqued.Location = new System.Drawing.Point(710, 248);
+            this.MenuGestorCodParqued.Name = "MenuGestorCodParqued";
+            this.MenuGestorCodParqued.Size = new System.Drawing.Size(162, 20);
+            this.MenuGestorCodParqued.TabIndex = 88;
             // 
             // MenuGestor
             // 
@@ -296,7 +296,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(884, 511);
-            this.Controls.Add(this.MenuGestorCodParque);
+            this.Controls.Add(this.MenuGestorCodParqued);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
@@ -355,6 +355,6 @@
         private System.Windows.Forms.TextBox MenuGestorAloCapacidad;
         private System.Windows.Forms.TextBox MenuGestorAloCategoria;
         private System.Windows.Forms.TextBox MenuGestorAloID;
-        private System.Windows.Forms.TextBox MenuGestorCodParque;
+        private System.Windows.Forms.TextBox MenuGestorCodParqued;
     }
 }
