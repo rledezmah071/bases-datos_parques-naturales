@@ -70,6 +70,7 @@
             this.buttonEspeciesVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonEspeciesVolver.TabIndex = 66;
             this.buttonEspeciesVolver.UseVisualStyleBackColor = false;
+            this.buttonEspeciesVolver.Click += new System.EventHandler(this.buttonEspeciesVolver_Click);
             // 
             // buttonLimpiaEspecies
             // 

@@ -92,6 +92,7 @@
             this.buttonProyectosVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonProyectosVolver.TabIndex = 84;
             this.buttonProyectosVolver.UseVisualStyleBackColor = false;
+            this.buttonProyectosVolver.Click += new System.EventHandler(this.buttonProyectosVolver_Click);
             // 
             // buttonLimpiaProyectos
             // 

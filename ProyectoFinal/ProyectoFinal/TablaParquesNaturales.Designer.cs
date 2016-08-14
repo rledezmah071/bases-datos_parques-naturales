@@ -56,6 +56,7 @@
             this.buttonParqueNaturalVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonParqueNaturalVolver.TabIndex = 103;
             this.buttonParqueNaturalVolver.UseVisualStyleBackColor = false;
+            this.buttonParqueNaturalVolver.Click += new System.EventHandler(this.buttonParqueNaturalVolver_Click);
             // 
             // buttonLimpiaParqueNatural
             // 

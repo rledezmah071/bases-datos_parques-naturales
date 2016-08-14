@@ -78,6 +78,7 @@
             this.buttonInvestigadorVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonInvestigadorVolver.TabIndex = 84;
             this.buttonInvestigadorVolver.UseVisualStyleBackColor = false;
+            this.buttonInvestigadorVolver.Click += new System.EventHandler(this.buttonInvestigadorVolver_Click);
             // 
             // buttonLimpiaInvestigador
             // 

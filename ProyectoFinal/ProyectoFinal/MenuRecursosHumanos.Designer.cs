@@ -67,6 +67,7 @@
             this.rhPersonal.TabIndex = 22;
             this.rhPersonal.Text = "Personal";
             this.rhPersonal.UseVisualStyleBackColor = true;
+            this.rhPersonal.Click += new System.EventHandler(this.rhPersonal_Click);
             // 
             // rhTipoPersonal
             // 
@@ -77,6 +78,7 @@
             this.rhTipoPersonal.TabIndex = 23;
             this.rhTipoPersonal.Text = "Tipo de Personal";
             this.rhTipoPersonal.UseVisualStyleBackColor = true;
+            this.rhTipoPersonal.Click += new System.EventHandler(this.rhTipoPersonal_Click);
             // 
             // MenuRecursosHumanos
             // 

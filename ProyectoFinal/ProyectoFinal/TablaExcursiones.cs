@@ -22,5 +22,12 @@ namespace ProyectoFinal
         {
 
         }
+
+        private void buttonExcursionVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MenuAdministrador MenuAdministrador = new MenuAdministrador();
+            MenuAdministrador.ShowDialog();
+        }
     }
 }

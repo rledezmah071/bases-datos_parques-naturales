@@ -74,6 +74,7 @@
             this.buttonComunidadVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonComunidadVolver.TabIndex = 66;
             this.buttonComunidadVolver.UseVisualStyleBackColor = false;
+            this.buttonComunidadVolver.Click += new System.EventHandler(this.buttonComunidadVolver_Click);
             // 
             // buttonLimpiaComunidadAutonoma
             // 
@@ -215,9 +216,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(296, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(300, 31);
+            this.label1.Size = new System.Drawing.Size(346, 31);
             this.label1.TabIndex = 52;
-            this.label1.Text = "Comunidad Autónoma";
+            this.label1.Text = "Comunidades Autónomas";
             // 
             // label6
             // 

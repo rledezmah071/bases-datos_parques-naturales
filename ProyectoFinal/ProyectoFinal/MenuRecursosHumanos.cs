@@ -35,8 +35,23 @@ namespace ProyectoFinal
 
         private void buttonMenuAdmVolver_Click(object sender, EventArgs e)
         {
+            this.Hide();
             InicioSesion InicioSesion = new InicioSesion();
             InicioSesion.ShowDialog();
+        }
+
+        private void rhPersonal_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TablaPersonal TablaPersonal = new TablaPersonal();
+            TablaPersonal.ShowDialog();
+        }
+
+        private void rhTipoPersonal_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TablaTipoDePersonal TablaTipoDePersonal = new TablaTipoDePersonal();
+            TablaTipoDePersonal.ShowDialog();
         }
     }
 }

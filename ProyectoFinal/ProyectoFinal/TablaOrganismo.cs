@@ -55,6 +55,7 @@ namespace ProyectoFinal
 
         private void buttonOrganismoVolver_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }

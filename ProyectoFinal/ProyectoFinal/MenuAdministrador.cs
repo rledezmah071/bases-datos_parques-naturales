@@ -56,6 +56,7 @@ namespace ProyectoFinal
 
         private void buttonMenuAdmVolver_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
             InicioSesion InicioSesion = new InicioSesion();
             InicioSesion.ShowDialog();
             
@@ -147,6 +148,13 @@ namespace ProyectoFinal
             this.Hide();
             TablaVisitantes TablaVisitantes = new TablaVisitantes();
             TablaVisitantes.ShowDialog();
+        }
+
+        private void admTipoPersonal_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            TablaTipoDePersonal TablaTipoDePersonal = new TablaTipoDePersonal();
+            TablaTipoDePersonal.ShowDialog();
         }
     }
 }

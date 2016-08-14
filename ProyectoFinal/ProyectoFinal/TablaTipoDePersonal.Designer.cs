@@ -56,6 +56,7 @@
             this.buttonTipoPersonalVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonTipoPersonalVolver.TabIndex = 122;
             this.buttonTipoPersonalVolver.UseVisualStyleBackColor = false;
+            this.buttonTipoPersonalVolver.Click += new System.EventHandler(this.buttonTipoPersonalVolver_Click);
             // 
             // buttonLimpiaTipoPersonal
             // 

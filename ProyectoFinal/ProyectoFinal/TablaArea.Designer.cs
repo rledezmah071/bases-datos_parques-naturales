@@ -56,6 +56,7 @@
             this.buttonAreaVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonAreaVolver.TabIndex = 66;
             this.buttonAreaVolver.UseVisualStyleBackColor = false;
+            this.buttonAreaVolver.Click += new System.EventHandler(this.buttonAreaVolver_Click);
             // 
             // buttonLimpiaArea
             // 
@@ -187,9 +188,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(384, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 31);
+            this.label1.Size = new System.Drawing.Size(90, 31);
             this.label1.TabIndex = 52;
-            this.label1.Text = "Área";
+            this.label1.Text = "Áreas";
             // 
             // TablaArea
             // 
