@@ -40,5 +40,10 @@ namespace ProyectoFinal
             InicioSesion InicioSesion = new InicioSesion();
             InicioSesion.ShowDialog();
         }
+
+        private void admComboBoxConsultar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
