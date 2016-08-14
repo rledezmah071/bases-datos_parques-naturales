@@ -55,6 +55,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BotonInvisible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonInvisible.Designer.cs">
+      <DependentUpon>BotonInvisible.cs</DependentUpon>
+    </Compile>
     <Compile Include="TablaAlojamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +183,9 @@
     <Compile Include="TablaVisitante_Gestor.Designer.cs">
       <DependentUpon>TablaVisitante_Gestor.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BotonInvisible.resx">
+      <DependentUpon>BotonInvisible.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InicioSesion.resx">
       <DependentUpon>InicioSesion.cs</DependentUpon>
     </EmbeddedResource>
@@ -220,6 +230,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TablaParquesNaturales.resx">
       <DependentUpon>TablaParquesNaturales.cs</DependentUpon>
@@ -266,6 +277,15 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink-floyd-dark-side-of-the-moon-wallpaper-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pink_Floyd_-_The_Dark_Side_Of_The_Moon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparent___png_background_by_anangelfromhell-d5ug2ks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
