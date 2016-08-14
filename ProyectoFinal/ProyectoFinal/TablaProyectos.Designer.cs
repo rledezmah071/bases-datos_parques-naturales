@@ -87,7 +87,7 @@
             this.buttonProyectosVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonProyectosVolver.BackgroundImage")));
             this.buttonProyectosVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonProyectosVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonProyectosVolver.Location = new System.Drawing.Point(-5, -1);
+            this.buttonProyectosVolver.Location = new System.Drawing.Point(2, -1);
             this.buttonProyectosVolver.Name = "buttonProyectosVolver";
             this.buttonProyectosVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonProyectosVolver.TabIndex = 84;

@@ -52,6 +52,9 @@ namespace ProyectoFinal
 
         }
 
-        
+        private void buttonComunidadVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

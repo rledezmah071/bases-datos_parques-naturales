@@ -65,7 +65,7 @@
             this.buttonMenuAdmVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMenuAdmVolver.Location = new System.Drawing.Point(12, 10);
             this.buttonMenuAdmVolver.Name = "buttonMenuAdmVolver";
-            this.buttonMenuAdmVolver.Size = new System.Drawing.Size(75, 60);
+            this.buttonMenuAdmVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonMenuAdmVolver.TabIndex = 6;
             this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
             this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click_1);
