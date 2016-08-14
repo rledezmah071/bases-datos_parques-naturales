@@ -45,6 +45,7 @@ namespace ProyectoFinal
 
         private void buttonIngresar_Click(object sender, EventArgs e)
         {
+
             if (textBox1.Text == ("admin") && (textBox2.Text == ("clave")))
             {
                 this.Hide();
