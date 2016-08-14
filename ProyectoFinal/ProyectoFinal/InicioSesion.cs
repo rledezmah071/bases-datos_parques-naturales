@@ -38,13 +38,40 @@ namespace ProyectoFinal
 
         }
 
-        private void buttonIngresar_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-            this.Hide();
-            MenuAdministrador MenuAdministrador = new MenuAdministrador();
-            MenuAdministrador.ShowDialog();
+        }
+
+        private void buttonIngresar_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == ("admin") && (textBox2.Text == ("clave")))
+            {
+                this.Hide();
+                MenuAdministrador MenuAdministrador = new MenuAdministrador();
+                MenuAdministrador.ShowDialog();
+                
+
+            }
+            else if (textBox1.Text == ("admin2") && (textBox2.Text == ("clave2")))
+            {
+                this.Hide();
+                MenuGestor MenuGestor = new MenuGestor();
+                MenuGestor.ShowDialog();
+                
+
+            }
+            else 
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos", "Error!");
+            }
+
+           
+
             
+           
+         
+               
        }
 
         private void InicioSesion_Load(object sender, EventArgs e)
@@ -52,9 +79,6 @@ namespace ProyectoFinal
 
         }
 
-        private void buttonComunidadVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+      
     }
 }
