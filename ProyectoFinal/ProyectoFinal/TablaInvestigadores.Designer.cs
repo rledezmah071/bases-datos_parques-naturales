@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal
 {
-    partial class invApellido
+    partial class TablaInvestigadores
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(invApellido));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaInvestigadores));
             this.textTelefono = new System.Windows.Forms.Label();
             this.invTelefono = new System.Windows.Forms.TextBox();
             this.buttonInvestigadorVolver = new System.Windows.Forms.Button();
@@ -232,7 +232,7 @@
             this.invTitulo.Size = new System.Drawing.Size(197, 20);
             this.invTitulo.TabIndex = 88;
             // 
-            // invApellido
+            // TablaInvestigadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -255,7 +255,7 @@
             this.Controls.Add(this.ComboBoxInvestigador);
             this.Controls.Add(this.invID);
             this.Controls.Add(this.label1);
-            this.Name = "invApellido";
+            this.Name = "TablaInvestigadores";
             this.Text = "Investigadores";
             this.Load += new System.EventHandler(this.TablaInvestigadores_Load);
             this.ResumeLayout(false);

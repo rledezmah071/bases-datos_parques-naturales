@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal
 {
-    partial class TipoDePersonal
+    partial class TablaTipoDePersonal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipoDePersonal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaTipoDePersonal));
             this.buttonTipoPersonalVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaTipoPersonal = new System.Windows.Forms.Button();
             this.Nombretp = new System.Windows.Forms.Label();
@@ -190,7 +190,7 @@
             this.label1.TabIndex = 108;
             this.label1.Text = "Tipo de Personal";
             // 
-            // TipoDePersonal
+            // TablaTipoDePersonal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -209,7 +209,7 @@
             this.Controls.Add(this.ComboBoxTipoPersonal);
             this.Controls.Add(this.tipoperID);
             this.Controls.Add(this.label1);
-            this.Name = "TipoDePersonal";
+            this.Name = "TablaTipoDePersonal";
             this.Text = "TipoDePersonal";
             this.Load += new System.EventHandler(this.TipoDePersonal_Load);
             this.ResumeLayout(false);

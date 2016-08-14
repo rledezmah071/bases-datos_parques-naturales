@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuAdministrador));
             this.label1 = new System.Windows.Forms.Label();
             this.buttonMenuAdmVolver = new System.Windows.Forms.Button();
-            this.buttonOrganismo = new System.Windows.Forms.Button();
-            this.buttonComunidadAutonoma = new System.Windows.Forms.Button();
-            this.buttonParqueNatural = new System.Windows.Forms.Button();
-            this.adm = new System.Windows.Forms.Button();
-            this.buttonEspecie = new System.Windows.Forms.Button();
+            this.admOrganismo = new System.Windows.Forms.Button();
+            this.admComunidadAutonoma = new System.Windows.Forms.Button();
+            this.admParqueNatural = new System.Windows.Forms.Button();
+            this.admAreas = new System.Windows.Forms.Button();
+            this.admEspecie = new System.Windows.Forms.Button();
             this.admExcursion = new System.Windows.Forms.Button();
             this.admProyecto = new System.Windows.Forms.Button();
             this.admAlojamiento = new System.Windows.Forms.Button();
@@ -70,59 +70,60 @@
             this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
             this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click_1);
             // 
-            // buttonOrganismo
+            // admOrganismo
             // 
-            this.buttonOrganismo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonOrganismo.Location = new System.Drawing.Point(645, 95);
-            this.buttonOrganismo.Name = "buttonOrganismo";
-            this.buttonOrganismo.Size = new System.Drawing.Size(125, 50);
-            this.buttonOrganismo.TabIndex = 16;
-            this.buttonOrganismo.Text = "Organismos";
-            this.buttonOrganismo.UseVisualStyleBackColor = true;
-            this.buttonOrganismo.Click += new System.EventHandler(this.buttonOrganismo_Click);
+            this.admOrganismo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.admOrganismo.Location = new System.Drawing.Point(645, 95);
+            this.admOrganismo.Name = "admOrganismo";
+            this.admOrganismo.Size = new System.Drawing.Size(125, 50);
+            this.admOrganismo.TabIndex = 16;
+            this.admOrganismo.Text = "Organismos";
+            this.admOrganismo.UseVisualStyleBackColor = true;
+            this.admOrganismo.Click += new System.EventHandler(this.buttonOrganismo_Click);
             // 
-            // buttonComunidadAutonoma
+            // admComunidadAutonoma
             // 
-            this.buttonComunidadAutonoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonComunidadAutonoma.Location = new System.Drawing.Point(141, 207);
-            this.buttonComunidadAutonoma.Name = "buttonComunidadAutonoma";
-            this.buttonComunidadAutonoma.Size = new System.Drawing.Size(125, 50);
-            this.buttonComunidadAutonoma.TabIndex = 17;
-            this.buttonComunidadAutonoma.Text = "Comunidades Autónomaes";
-            this.buttonComunidadAutonoma.UseVisualStyleBackColor = true;
+            this.admComunidadAutonoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.admComunidadAutonoma.Location = new System.Drawing.Point(141, 207);
+            this.admComunidadAutonoma.Name = "admComunidadAutonoma";
+            this.admComunidadAutonoma.Size = new System.Drawing.Size(125, 50);
+            this.admComunidadAutonoma.TabIndex = 17;
+            this.admComunidadAutonoma.Text = "Comunidades Autónomaes";
+            this.admComunidadAutonoma.UseVisualStyleBackColor = true;
+            this.admComunidadAutonoma.Click += new System.EventHandler(this.admComunidadAutonoma_Click);
             // 
-            // buttonParqueNatural
+            // admParqueNatural
             // 
-            this.buttonParqueNatural.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonParqueNatural.Location = new System.Drawing.Point(645, 151);
-            this.buttonParqueNatural.Name = "buttonParqueNatural";
-            this.buttonParqueNatural.Size = new System.Drawing.Size(125, 50);
-            this.buttonParqueNatural.TabIndex = 18;
-            this.buttonParqueNatural.Text = "Parques Naturales";
-            this.buttonParqueNatural.UseVisualStyleBackColor = true;
-            this.buttonParqueNatural.Click += new System.EventHandler(this.button4_Click);
+            this.admParqueNatural.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.admParqueNatural.Location = new System.Drawing.Point(645, 151);
+            this.admParqueNatural.Name = "admParqueNatural";
+            this.admParqueNatural.Size = new System.Drawing.Size(125, 50);
+            this.admParqueNatural.TabIndex = 18;
+            this.admParqueNatural.Text = "Parques Naturales";
+            this.admParqueNatural.UseVisualStyleBackColor = true;
+            this.admParqueNatural.Click += new System.EventHandler(this.button4_Click);
             // 
-            // adm
+            // admAreas
             // 
-            this.adm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.adm.Location = new System.Drawing.Point(141, 151);
-            this.adm.Name = "adm";
-            this.adm.Size = new System.Drawing.Size(125, 50);
-            this.adm.TabIndex = 14;
-            this.adm.Text = "Áreas";
-            this.adm.UseVisualStyleBackColor = true;
-            this.adm.Click += new System.EventHandler(this.button5_Click);
+            this.admAreas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.admAreas.Location = new System.Drawing.Point(141, 151);
+            this.admAreas.Name = "admAreas";
+            this.admAreas.Size = new System.Drawing.Size(125, 50);
+            this.admAreas.TabIndex = 14;
+            this.admAreas.Text = "Áreas";
+            this.admAreas.UseVisualStyleBackColor = true;
+            this.admAreas.Click += new System.EventHandler(this.button5_Click);
             // 
-            // buttonEspecie
+            // admEspecie
             // 
-            this.buttonEspecie.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonEspecie.Location = new System.Drawing.Point(141, 263);
-            this.buttonEspecie.Name = "buttonEspecie";
-            this.buttonEspecie.Size = new System.Drawing.Size(125, 50);
-            this.buttonEspecie.TabIndex = 15;
-            this.buttonEspecie.Text = "Especies";
-            this.buttonEspecie.UseVisualStyleBackColor = true;
-            this.buttonEspecie.Click += new System.EventHandler(this.button6_Click);
+            this.admEspecie.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.admEspecie.Location = new System.Drawing.Point(141, 263);
+            this.admEspecie.Name = "admEspecie";
+            this.admEspecie.Size = new System.Drawing.Size(125, 50);
+            this.admEspecie.TabIndex = 15;
+            this.admEspecie.Text = "Especies";
+            this.admEspecie.UseVisualStyleBackColor = true;
+            this.admEspecie.Click += new System.EventHandler(this.button6_Click);
             // 
             // admExcursion
             // 
@@ -144,6 +145,7 @@
             this.admProyecto.TabIndex = 20;
             this.admProyecto.Text = "Proyectos";
             this.admProyecto.UseVisualStyleBackColor = true;
+            this.admProyecto.Click += new System.EventHandler(this.admProyecto_Click);
             // 
             // admAlojamiento
             // 
@@ -176,6 +178,7 @@
             this.admTipoPersonal.TabIndex = 23;
             this.admTipoPersonal.Text = "Tipo de Personal";
             this.admTipoPersonal.UseVisualStyleBackColor = true;
+            this.admTipoPersonal.Click += new System.EventHandler(this.admTipoPersonal_Click);
             // 
             // admPersonal
             // 
@@ -197,6 +200,7 @@
             this.admVisitante.TabIndex = 25;
             this.admVisitante.Text = "Visitantes";
             this.admVisitante.UseVisualStyleBackColor = true;
+            this.admVisitante.Click += new System.EventHandler(this.admVisitante_Click);
             // 
             // MenuAdministrador
             // 
@@ -213,11 +217,11 @@
             this.Controls.Add(this.admAlojamiento);
             this.Controls.Add(this.admProyecto);
             this.Controls.Add(this.admExcursion);
-            this.Controls.Add(this.buttonParqueNatural);
-            this.Controls.Add(this.buttonComunidadAutonoma);
-            this.Controls.Add(this.buttonOrganismo);
-            this.Controls.Add(this.buttonEspecie);
-            this.Controls.Add(this.adm);
+            this.Controls.Add(this.admParqueNatural);
+            this.Controls.Add(this.admComunidadAutonoma);
+            this.Controls.Add(this.admOrganismo);
+            this.Controls.Add(this.admEspecie);
+            this.Controls.Add(this.admAreas);
             this.Controls.Add(this.buttonMenuAdmVolver);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
@@ -233,11 +237,11 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonMenuAdmVolver;
-        private System.Windows.Forms.Button buttonOrganismo;
-        private System.Windows.Forms.Button buttonComunidadAutonoma;
-        private System.Windows.Forms.Button buttonParqueNatural;
-        private System.Windows.Forms.Button adm;
-        private System.Windows.Forms.Button buttonEspecie;
+        private System.Windows.Forms.Button admOrganismo;
+        private System.Windows.Forms.Button admComunidadAutonoma;
+        private System.Windows.Forms.Button admParqueNatural;
+        private System.Windows.Forms.Button admAreas;
+        private System.Windows.Forms.Button admEspecie;
         private System.Windows.Forms.Button admExcursion;
         private System.Windows.Forms.Button admProyecto;
         private System.Windows.Forms.Button admAlojamiento;

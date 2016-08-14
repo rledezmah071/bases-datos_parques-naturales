@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class TipoDePersonal : Form
+    public partial class TablaTipoDePersonal : Form
     {
-        public TipoDePersonal()
+        public TablaTipoDePersonal()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
@@ -20,7 +20,9 @@ namespace ProyectoFinal
 
         private void TipoDePersonal_Load(object sender, EventArgs e)
         {
-
+            this.Hide();
+            TablaTipoDePersonal TablaTipoDePersonal = new TablaTipoDePersonal();
+            TablaTipoDePersonal.ShowDialog();
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class Parques_Naturales : Form
+    public partial class TablaParquesNaturales : Form
     {
-        public Parques_Naturales()
+        public TablaParquesNaturales()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;

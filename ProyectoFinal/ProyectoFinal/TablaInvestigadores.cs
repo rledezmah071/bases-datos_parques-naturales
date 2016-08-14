@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class invApellido : Form
+    public partial class TablaInvestigadores : Form
     {
-        public invApellido()
+        public TablaInvestigadores()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;

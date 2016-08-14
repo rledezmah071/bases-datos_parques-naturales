@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal
 {
-    partial class Parques_Naturales
+    partial class TablaParquesNaturales
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Parques_Naturales));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaParquesNaturales));
             this.buttonParqueNaturalVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaParqueNatural = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -191,7 +191,7 @@
             this.label1.TabIndex = 89;
             this.label1.Text = "Parques Naturales";
             // 
-            // Parques_Naturales
+            // TablaParquesNaturales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -210,7 +210,7 @@
             this.Controls.Add(this.ComboBoxParqueNatural);
             this.Controls.Add(this.parqueID);
             this.Controls.Add(this.label1);
-            this.Name = "Parques_Naturales";
+            this.Name = "TablaParquesNaturales";
             this.Text = "Parques_Naturales";
             this.Load += new System.EventHandler(this.Parques_Naturales_Load);
             this.ResumeLayout(false);
