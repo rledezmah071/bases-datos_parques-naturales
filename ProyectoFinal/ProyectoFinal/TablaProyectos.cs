@@ -29,5 +29,14 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaProyectos_Click(object sender, EventArgs e)
+        {
+            proyComboBoxCodInvestigador.Text = "";
+            proyFecFinal.Clear();
+            proyFecInicio.Clear();
+            proyPresupuesto.Clear();
+            proyID.Clear();
+        }
     }
 }

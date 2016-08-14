@@ -68,6 +68,7 @@
             this.buttonLimpiaTipoPersonal.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaTipoPersonal.TabIndex = 121;
             this.buttonLimpiaTipoPersonal.UseVisualStyleBackColor = true;
+            this.buttonLimpiaTipoPersonal.Click += new System.EventHandler(this.buttonLimpiaTipoPersonal_Click);
             // 
             // Nombretp
             // 

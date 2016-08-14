@@ -29,5 +29,15 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaVisitantes_Click(object sender, EventArgs e)
+        {
+            visComboBoxCodAlojamiento.Text = "";
+            visDNI.Clear();
+            visDomicilio.Clear();
+            visID.Clear();
+            visNombre.Clear();
+            visProfesion.Clear();
+        }
     }
 }

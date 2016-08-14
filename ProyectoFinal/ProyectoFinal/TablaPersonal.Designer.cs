@@ -30,8 +30,8 @@
         {
             System.Windows.Forms.Label label5;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaPersonal));
-            this.persTelCasa = new System.Windows.Forms.Label();
-            this.excTipoExcursion = new System.Windows.Forms.TextBox();
+            this.textpersTelCasa = new System.Windows.Forms.Label();
+            this.persTelCasa = new System.Windows.Forms.TextBox();
             this.persComboBoxCodigoParque = new System.Windows.Forms.ComboBox();
             this.buttonPersonalVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaPersonal = new System.Windows.Forms.Button();
@@ -68,23 +68,23 @@
             label5.TabIndex = 82;
             label5.Text = "Número de Seguridad Social";
             // 
+            // textpersTelCasa
+            // 
+            this.textpersTelCasa.AutoSize = true;
+            this.textpersTelCasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.textpersTelCasa.Location = new System.Drawing.Point(494, 152);
+            this.textpersTelCasa.Name = "textpersTelCasa";
+            this.textpersTelCasa.Size = new System.Drawing.Size(125, 20);
+            this.textpersTelCasa.TabIndex = 87;
+            this.textpersTelCasa.Text = "Teléfono Casa";
+            // 
             // persTelCasa
             // 
-            this.persTelCasa.AutoSize = true;
-            this.persTelCasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.persTelCasa.Location = new System.Drawing.Point(494, 152);
+            this.persTelCasa.BackColor = System.Drawing.SystemColors.Control;
+            this.persTelCasa.Location = new System.Drawing.Point(642, 154);
             this.persTelCasa.Name = "persTelCasa";
-            this.persTelCasa.Size = new System.Drawing.Size(125, 20);
-            this.persTelCasa.TabIndex = 87;
-            this.persTelCasa.Text = "Teléfono Casa";
-            // 
-            // excTipoExcursion
-            // 
-            this.excTipoExcursion.BackColor = System.Drawing.SystemColors.Control;
-            this.excTipoExcursion.Location = new System.Drawing.Point(642, 154);
-            this.excTipoExcursion.Name = "excTipoExcursion";
-            this.excTipoExcursion.Size = new System.Drawing.Size(197, 20);
-            this.excTipoExcursion.TabIndex = 86;
+            this.persTelCasa.Size = new System.Drawing.Size(197, 20);
+            this.persTelCasa.TabIndex = 86;
             // 
             // persComboBoxCodigoParque
             // 
@@ -123,6 +123,7 @@
             this.buttonLimpiaPersonal.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaPersonal.TabIndex = 83;
             this.buttonLimpiaPersonal.UseVisualStyleBackColor = true;
+            this.buttonLimpiaPersonal.Click += new System.EventHandler(this.buttonLimpiaPersonal_Click);
             // 
             // label4
             // 
@@ -345,8 +346,8 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.perscomboBox1TipoPersonal);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.textpersTelCasa);
             this.Controls.Add(this.persTelCasa);
-            this.Controls.Add(this.excTipoExcursion);
             this.Controls.Add(this.persComboBoxCodigoParque);
             this.Controls.Add(this.buttonPersonalVolver);
             this.Controls.Add(this.buttonLimpiaPersonal);
@@ -373,8 +374,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label persTelCasa;
-        private System.Windows.Forms.TextBox excTipoExcursion;
+        private System.Windows.Forms.Label textpersTelCasa;
+        private System.Windows.Forms.TextBox persTelCasa;
         private System.Windows.Forms.ComboBox persComboBoxCodigoParque;
         private System.Windows.Forms.Button buttonPersonalVolver;
         private System.Windows.Forms.Button buttonLimpiaPersonal;

@@ -29,5 +29,12 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaParqueNatural_Click(object sender, EventArgs e)
+        {
+            parqueFecha.Clear();
+            parqueID.Clear();
+            parqueNombre.Clear();
+        }
     }
 }

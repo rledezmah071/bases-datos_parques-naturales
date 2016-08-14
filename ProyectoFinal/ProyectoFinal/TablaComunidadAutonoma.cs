@@ -34,5 +34,14 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaComunidadAutonoma_Click(object sender, EventArgs e)
+        {
+            comID.Clear();
+            comNombre.Clear();
+            comNumero.Clear();
+            comSuperficieDeclarada.Clear();
+            comComboBoxOrganismo.Text = "";
+        }
     }
 }

@@ -16,15 +16,17 @@ namespace ProyectoFinal
 {
     public partial class InicioSesion : Form
     {
-
-        OracleConnection DatabaseConnection = new OracleConnection();
+        
+        
        
-
         public InicioSesion()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
-           
+
+
+              
+            
 
         }
 
@@ -45,7 +47,7 @@ namespace ProyectoFinal
 
         private void buttonComunidadVolver_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void buttonIngresar_Click(object sender, EventArgs e)

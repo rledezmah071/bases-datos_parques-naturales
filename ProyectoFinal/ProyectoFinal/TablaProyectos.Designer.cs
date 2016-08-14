@@ -104,6 +104,7 @@
             this.buttonLimpiaProyectos.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaProyectos.TabIndex = 83;
             this.buttonLimpiaProyectos.UseVisualStyleBackColor = true;
+            this.buttonLimpiaProyectos.Click += new System.EventHandler(this.buttonLimpiaProyectos_Click);
             // 
             // Presupuesto
             // 

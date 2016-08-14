@@ -86,6 +86,7 @@
             this.buttonLimpiaExcursion.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaExcursion.TabIndex = 65;
             this.buttonLimpiaExcursion.UseVisualStyleBackColor = true;
+            this.buttonLimpiaExcursion.Click += new System.EventHandler(this.buttonLimpiaExcursion_Click);
             // 
             // label5
             // 

@@ -82,6 +82,7 @@
             this.buttonLimpiaEspecies.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaEspecies.TabIndex = 65;
             this.buttonLimpiaEspecies.UseVisualStyleBackColor = true;
+            this.buttonLimpiaEspecies.Click += new System.EventHandler(this.buttonLimpiaEspecies_Click);
             // 
             // label5
             // 

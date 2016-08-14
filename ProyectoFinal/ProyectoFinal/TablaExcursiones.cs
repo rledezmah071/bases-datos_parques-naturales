@@ -29,5 +29,14 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaExcursion_Click(object sender, EventArgs e)
+        {
+            excComboBoxCodAlojamiento.Text = "";
+            excFecha.Clear();
+            excHora.Clear();
+            excID.Clear();
+            excTipoExcursion.Clear();
+        }
     }
 }

@@ -29,5 +29,12 @@ namespace ProyectoFinal
             MenuAdministrador MenuAdministrador = new MenuAdministrador();
             MenuAdministrador.ShowDialog();
         }
+
+        private void buttonLimpiaArea_Click(object sender, EventArgs e)
+        {
+            areaCapacidad.Clear();
+            areaCategoria.Clear();
+            areaID.Clear();
+        }
     }
 }

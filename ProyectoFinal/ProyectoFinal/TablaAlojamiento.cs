@@ -25,6 +25,10 @@ namespace ProyectoFinal
 
         private void buttonLimpiaOrganismo_Click(object sender, EventArgs e)
         {
+            aloCategoria.Clear();
+            aloID.Clear();
+            aloCapacidad.Clear();
+            aloComboBoxParque.Text = "";
 
         }
 
