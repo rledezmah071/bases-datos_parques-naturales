@@ -1,0 +1,315 @@
+﻿namespace ProyectoFinal
+{
+    partial class TablaVisitante_Gestor
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaVisitante_Gestor));
+            this.label3 = new System.Windows.Forms.Label();
+            this.visgProfesion = new System.Windows.Forms.TextBox();
+            this.Domicilio = new System.Windows.Forms.Label();
+            this.visgDomicilio = new System.Windows.Forms.TextBox();
+            this.visgComboBoxCodAlojamiento = new System.Windows.Forms.ComboBox();
+            this.buttonVisitantesGVolver = new System.Windows.Forms.Button();
+            this.buttonLimpiaVisitantesG = new System.Windows.Forms.Button();
+            this.extvsiDNI = new System.Windows.Forms.Label();
+            this.textvisNombre = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textvisID = new System.Windows.Forms.Label();
+            this.buttonGuardaVisitantesG = new System.Windows.Forms.Button();
+            this.visgNombre = new System.Windows.Forms.TextBox();
+            this.visgDNI = new System.Windows.Forms.TextBox();
+            this.buttonActualizarVisitantesG = new System.Windows.Forms.Button();
+            this.buttonEliminaVisitantesG = new System.Windows.Forms.Button();
+            this.comlabel = new System.Windows.Forms.Label();
+            this.ComboBoxVisitantesG = new System.Windows.Forms.ComboBox();
+            this.visgID = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(500, 253);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.TabIndex = 127;
+            this.label3.Text = "Profesión";
+            // 
+            // visgProfesion
+            // 
+            this.visgProfesion.BackColor = System.Drawing.SystemColors.Control;
+            this.visgProfesion.Location = new System.Drawing.Point(624, 253);
+            this.visgProfesion.Name = "visgProfesion";
+            this.visgProfesion.Size = new System.Drawing.Size(197, 20);
+            this.visgProfesion.TabIndex = 126;
+            // 
+            // Domicilio
+            // 
+            this.Domicilio.AutoSize = true;
+            this.Domicilio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Domicilio.Location = new System.Drawing.Point(504, 211);
+            this.Domicilio.Name = "Domicilio";
+            this.Domicilio.Size = new System.Drawing.Size(81, 20);
+            this.Domicilio.TabIndex = 125;
+            this.Domicilio.Text = "Domicilio";
+            // 
+            // visgDomicilio
+            // 
+            this.visgDomicilio.BackColor = System.Drawing.SystemColors.Control;
+            this.visgDomicilio.Location = new System.Drawing.Point(624, 211);
+            this.visgDomicilio.Name = "visgDomicilio";
+            this.visgDomicilio.Size = new System.Drawing.Size(197, 20);
+            this.visgDomicilio.TabIndex = 124;
+            // 
+            // visgComboBoxCodAlojamiento
+            // 
+            this.visgComboBoxCodAlojamiento.AccessibleDescription = "";
+            this.visgComboBoxCodAlojamiento.BackColor = System.Drawing.SystemColors.Control;
+            this.visgComboBoxCodAlojamiento.DisplayMember = "Guardar ";
+            this.visgComboBoxCodAlojamiento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.visgComboBoxCodAlojamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.visgComboBoxCodAlojamiento.FormattingEnabled = true;
+            this.visgComboBoxCodAlojamiento.Location = new System.Drawing.Point(624, 295);
+            this.visgComboBoxCodAlojamiento.Name = "visgComboBoxCodAlojamiento";
+            this.visgComboBoxCodAlojamiento.Size = new System.Drawing.Size(197, 26);
+            this.visgComboBoxCodAlojamiento.TabIndex = 123;
+            this.visgComboBoxCodAlojamiento.Tag = "";
+            // 
+            // buttonVisitantesGVolver
+            // 
+            this.buttonVisitantesGVolver.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonVisitantesGVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonVisitantesGVolver.BackgroundImage")));
+            this.buttonVisitantesGVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonVisitantesGVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonVisitantesGVolver.Location = new System.Drawing.Point(2, -1);
+            this.buttonVisitantesGVolver.Name = "buttonVisitantesGVolver";
+            this.buttonVisitantesGVolver.Size = new System.Drawing.Size(67, 60);
+            this.buttonVisitantesGVolver.TabIndex = 122;
+            this.buttonVisitantesGVolver.UseVisualStyleBackColor = false;
+            this.buttonVisitantesGVolver.Click += new System.EventHandler(this.buttonVisitantesGVolver_Click);
+            // 
+            // buttonLimpiaVisitantesG
+            // 
+            this.buttonLimpiaVisitantesG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonLimpiaVisitantesG.BackgroundImage")));
+            this.buttonLimpiaVisitantesG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonLimpiaVisitantesG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.buttonLimpiaVisitantesG.Location = new System.Drawing.Point(660, 379);
+            this.buttonLimpiaVisitantesG.Name = "buttonLimpiaVisitantesG";
+            this.buttonLimpiaVisitantesG.Size = new System.Drawing.Size(67, 60);
+            this.buttonLimpiaVisitantesG.TabIndex = 121;
+            this.buttonLimpiaVisitantesG.UseVisualStyleBackColor = true;
+            // 
+            // extvsiDNI
+            // 
+            this.extvsiDNI.AutoSize = true;
+            this.extvsiDNI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.extvsiDNI.Location = new System.Drawing.Point(545, 127);
+            this.extvsiDNI.Name = "extvsiDNI";
+            this.extvsiDNI.Size = new System.Drawing.Size(40, 20);
+            this.extvsiDNI.TabIndex = 120;
+            this.extvsiDNI.Text = "DNI";
+            // 
+            // textvisNombre
+            // 
+            this.textvisNombre.AutoSize = true;
+            this.textvisNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.textvisNombre.Location = new System.Drawing.Point(514, 169);
+            this.textvisNombre.Name = "textvisNombre";
+            this.textvisNombre.Size = new System.Drawing.Size(71, 20);
+            this.textvisNombre.TabIndex = 119;
+            this.textvisNombre.Text = "Nombre";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(404, 297);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(189, 20);
+            this.label2.TabIndex = 118;
+            this.label2.Text = "Código de Alojamiento";
+            // 
+            // textvisID
+            // 
+            this.textvisID.AutoSize = true;
+            this.textvisID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.textvisID.Location = new System.Drawing.Point(468, 86);
+            this.textvisID.Name = "textvisID";
+            this.textvisID.Size = new System.Drawing.Size(117, 20);
+            this.textvisID.TabIndex = 117;
+            this.textvisID.Text = "Identificación";
+            // 
+            // buttonGuardaVisitantesG
+            // 
+            this.buttonGuardaVisitantesG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonGuardaVisitantesG.BackgroundImage")));
+            this.buttonGuardaVisitantesG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonGuardaVisitantesG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.buttonGuardaVisitantesG.Location = new System.Drawing.Point(475, 379);
+            this.buttonGuardaVisitantesG.Name = "buttonGuardaVisitantesG";
+            this.buttonGuardaVisitantesG.Size = new System.Drawing.Size(67, 60);
+            this.buttonGuardaVisitantesG.TabIndex = 116;
+            this.buttonGuardaVisitantesG.UseVisualStyleBackColor = true;
+            // 
+            // visgNombre
+            // 
+            this.visgNombre.BackColor = System.Drawing.SystemColors.Control;
+            this.visgNombre.Location = new System.Drawing.Point(624, 167);
+            this.visgNombre.Name = "visgNombre";
+            this.visgNombre.Size = new System.Drawing.Size(197, 20);
+            this.visgNombre.TabIndex = 115;
+            // 
+            // visgDNI
+            // 
+            this.visgDNI.BackColor = System.Drawing.SystemColors.Control;
+            this.visgDNI.Location = new System.Drawing.Point(624, 129);
+            this.visgDNI.Name = "visgDNI";
+            this.visgDNI.Size = new System.Drawing.Size(197, 20);
+            this.visgDNI.TabIndex = 114;
+            // 
+            // buttonActualizarVisitantesG
+            // 
+            this.buttonActualizarVisitantesG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonActualizarVisitantesG.BackgroundImage")));
+            this.buttonActualizarVisitantesG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonActualizarVisitantesG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.buttonActualizarVisitantesG.Location = new System.Drawing.Point(285, 379);
+            this.buttonActualizarVisitantesG.Name = "buttonActualizarVisitantesG";
+            this.buttonActualizarVisitantesG.Size = new System.Drawing.Size(67, 60);
+            this.buttonActualizarVisitantesG.TabIndex = 113;
+            this.buttonActualizarVisitantesG.UseVisualStyleBackColor = true;
+            // 
+            // buttonEliminaVisitantesG
+            // 
+            this.buttonEliminaVisitantesG.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonEliminaVisitantesG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonEliminaVisitantesG.BackgroundImage")));
+            this.buttonEliminaVisitantesG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonEliminaVisitantesG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.buttonEliminaVisitantesG.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.buttonEliminaVisitantesG.Location = new System.Drawing.Point(106, 379);
+            this.buttonEliminaVisitantesG.Name = "buttonEliminaVisitantesG";
+            this.buttonEliminaVisitantesG.Size = new System.Drawing.Size(67, 60);
+            this.buttonEliminaVisitantesG.TabIndex = 112;
+            this.buttonEliminaVisitantesG.UseVisualStyleBackColor = false;
+            // 
+            // comlabel
+            // 
+            this.comlabel.AutoSize = true;
+            this.comlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.comlabel.Location = new System.Drawing.Point(112, 170);
+            this.comlabel.Name = "comlabel";
+            this.comlabel.Size = new System.Drawing.Size(93, 20);
+            this.comlabel.TabIndex = 111;
+            this.comlabel.Text = "Existentes";
+            // 
+            // ComboBoxVisitantesG
+            // 
+            this.ComboBoxVisitantesG.AccessibleDescription = "";
+            this.ComboBoxVisitantesG.BackColor = System.Drawing.SystemColors.Control;
+            this.ComboBoxVisitantesG.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBoxVisitantesG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBoxVisitantesG.FormattingEnabled = true;
+            this.ComboBoxVisitantesG.Location = new System.Drawing.Point(67, 208);
+            this.ComboBoxVisitantesG.Name = "ComboBoxVisitantesG";
+            this.ComboBoxVisitantesG.Size = new System.Drawing.Size(177, 26);
+            this.ComboBoxVisitantesG.TabIndex = 110;
+            this.ComboBoxVisitantesG.Tag = "";
+            // 
+            // visgID
+            // 
+            this.visgID.BackColor = System.Drawing.SystemColors.Control;
+            this.visgID.Location = new System.Drawing.Point(624, 88);
+            this.visgID.Name = "visgID";
+            this.visgID.Size = new System.Drawing.Size(197, 20);
+            this.visgID.TabIndex = 109;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Location = new System.Drawing.Point(348, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(143, 31);
+            this.label1.TabIndex = 108;
+            this.label1.Text = "Visitantes";
+            // 
+            // TablaVisitante_Gestor
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(884, 511);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.visgProfesion);
+            this.Controls.Add(this.Domicilio);
+            this.Controls.Add(this.visgDomicilio);
+            this.Controls.Add(this.visgComboBoxCodAlojamiento);
+            this.Controls.Add(this.buttonVisitantesGVolver);
+            this.Controls.Add(this.buttonLimpiaVisitantesG);
+            this.Controls.Add(this.extvsiDNI);
+            this.Controls.Add(this.textvisNombre);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textvisID);
+            this.Controls.Add(this.buttonGuardaVisitantesG);
+            this.Controls.Add(this.visgNombre);
+            this.Controls.Add(this.visgDNI);
+            this.Controls.Add(this.buttonActualizarVisitantesG);
+            this.Controls.Add(this.buttonEliminaVisitantesG);
+            this.Controls.Add(this.comlabel);
+            this.Controls.Add(this.ComboBoxVisitantesG);
+            this.Controls.Add(this.visgID);
+            this.Controls.Add(this.label1);
+            this.Name = "TablaVisitante_Gestor";
+            this.Text = "TablaVisitante_Gestor";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox visgProfesion;
+        private System.Windows.Forms.Label Domicilio;
+        private System.Windows.Forms.TextBox visgDomicilio;
+        private System.Windows.Forms.ComboBox visgComboBoxCodAlojamiento;
+        private System.Windows.Forms.Button buttonVisitantesGVolver;
+        private System.Windows.Forms.Button buttonLimpiaVisitantesG;
+        private System.Windows.Forms.Label extvsiDNI;
+        private System.Windows.Forms.Label textvisNombre;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label textvisID;
+        private System.Windows.Forms.Button buttonGuardaVisitantesG;
+        private System.Windows.Forms.TextBox visgNombre;
+        private System.Windows.Forms.TextBox visgDNI;
+        private System.Windows.Forms.Button buttonActualizarVisitantesG;
+        private System.Windows.Forms.Button buttonEliminaVisitantesG;
+        private System.Windows.Forms.Label comlabel;
+        private System.Windows.Forms.ComboBox ComboBoxVisitantesG;
+        private System.Windows.Forms.TextBox visgID;
+        private System.Windows.Forms.Label label1;
+    }
+}

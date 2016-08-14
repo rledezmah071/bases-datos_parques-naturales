@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class TablaTipoDePersonal : Form
+    public partial class TablaVisitante_Gestor : Form
     {
-        public TablaTipoDePersonal()
+        public TablaVisitante_Gestor()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void TipoDePersonal_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void buttonTipoPersonalVolver_Click(object sender, EventArgs e)
+        private void buttonVisitantesGVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MenuAdministrador MenuAdministrador = new MenuAdministrador();
-            MenuAdministrador.ShowDialog();
+            MenuGestor MenuGestor = new MenuGestor();
+            MenuGestor.ShowDialog();
         }
     }
 }

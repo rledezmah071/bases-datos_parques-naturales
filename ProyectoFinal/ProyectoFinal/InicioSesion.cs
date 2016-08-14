@@ -43,6 +43,12 @@ namespace ProyectoFinal
 
         }
 
+        private void buttonComunidadVolver_Click(object sender, EventArgs e)
+        {
+           
+            Application.Exit();
+        }
+
         private void buttonIngresar_Click(object sender, EventArgs e)
         {
 
@@ -70,14 +76,8 @@ namespace ProyectoFinal
                 
             } else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error!");
+                MessageBox.Show("Usuario y/o contraseña incorrectos", "Error!");
             }
-
-           
-
-            
-           
-         
                
        }
 
@@ -88,4 +88,6 @@ namespace ProyectoFinal
 
       
     }
+
+    
 }

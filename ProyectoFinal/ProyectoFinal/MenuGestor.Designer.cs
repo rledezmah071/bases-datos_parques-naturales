@@ -84,7 +84,7 @@
             this.buttonMenuAdmVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMenuAdmVolver.Location = new System.Drawing.Point(12, 9);
             this.buttonMenuAdmVolver.Name = "buttonMenuAdmVolver";
-            this.buttonMenuAdmVolver.Size = new System.Drawing.Size(75, 60);
+            this.buttonMenuAdmVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonMenuAdmVolver.TabIndex = 15;
             this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
             this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click);
@@ -102,7 +102,7 @@
             // buttonConsultaExcursionMG
             // 
             this.buttonConsultaExcursionMG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonConsultaExcursionMG.Location = new System.Drawing.Point(12, 312);
+            this.buttonConsultaExcursionMG.Location = new System.Drawing.Point(49, 318);
             this.buttonConsultaExcursionMG.Name = "buttonConsultaExcursionMG";
             this.buttonConsultaExcursionMG.Size = new System.Drawing.Size(148, 27);
             this.buttonConsultaExcursionMG.TabIndex = 17;
@@ -128,6 +128,7 @@
             this.GestorBtnVisitantes.TabIndex = 19;
             this.GestorBtnVisitantes.Text = "Visitantes";
             this.GestorBtnVisitantes.UseVisualStyleBackColor = true;
+            this.GestorBtnVisitantes.Click += new System.EventHandler(this.GestorBtnVisitantes_Click);
             // 
             // label6
             // 
@@ -213,6 +214,7 @@
             // 
             // MenuGestorCodAlo
             // 
+            this.MenuGestorCodAlo.BackColor = System.Drawing.SystemColors.Control;
             this.MenuGestorCodAlo.Location = new System.Drawing.Point(212, 279);
             this.MenuGestorCodAlo.Name = "MenuGestorCodAlo";
             this.MenuGestorCodAlo.Size = new System.Drawing.Size(144, 20);
@@ -284,6 +286,7 @@
             // 
             // MenuGestorCodParque
             // 
+            this.MenuGestorCodParque.BackColor = System.Drawing.SystemColors.Control;
             this.MenuGestorCodParque.Location = new System.Drawing.Point(710, 248);
             this.MenuGestorCodParque.Name = "MenuGestorCodParque";
             this.MenuGestorCodParque.Size = new System.Drawing.Size(162, 20);
