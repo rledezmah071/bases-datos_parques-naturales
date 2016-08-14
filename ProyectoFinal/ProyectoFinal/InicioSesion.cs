@@ -66,7 +66,13 @@ namespace ProyectoFinal
                 
 
             }
-            else 
+            else if (textBox1.Text == ("admin3") && (textBox2.Text == ("clave3")))
+            {
+                this.Hide();
+                MenuInvestigador MenuInvestigador = new MenuInvestigador();
+                MenuInvestigador.ShowDialog();
+                
+            } else
             {
                 MessageBox.Show("Usuario y/o contraseña incorrectos", "Error!");
             }
