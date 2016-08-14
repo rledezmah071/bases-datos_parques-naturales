@@ -48,6 +48,11 @@ namespace ProyectoFinal
             string nombreArea = areaNombre.Text;
             string extensionArea = areaExtension.Text;
             controlador.insertaArea(idArea,nombreArea,extensionArea);
+            areaExtension.Clear();
+            areaNombre.Clear();
+            areaID.Clear();
+            MessageBox.Show("Registro guardado", "");
+
         }
     }
 }

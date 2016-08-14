@@ -12,14 +12,24 @@ namespace ProyectoFinal
    public class Controlador
     {
             OracleConnection databaseConnection = new OracleConnection("Data Source= DESKTOP-BQICPNQ;User Id=PARQUENATURAL;Password=root;");
-               
 
+        //Area
         public void insertaArea(string identificacion, string nombre, string extension)
         {
             databaseConnection.Open();
             OracleCommand command = new OracleCommand("insert into tablaprueba values('"+identificacion+"','"+nombre+ "','"+extension+"')",databaseConnection);
             command.ExecuteNonQuery();
             databaseConnection.Close();
+        }
+
+        public void actualizaArea()
+        {
+
+        }
+
+        public void eliminaArea()
+        {
+
         }
             
     }
