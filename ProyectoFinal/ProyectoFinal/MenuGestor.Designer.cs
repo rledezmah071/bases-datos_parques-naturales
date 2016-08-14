@@ -213,6 +213,7 @@
             // 
             // MenuGestorCodAlo
             // 
+            this.MenuGestorCodAlo.BackColor = System.Drawing.SystemColors.Control;
             this.MenuGestorCodAlo.Location = new System.Drawing.Point(212, 279);
             this.MenuGestorCodAlo.Name = "MenuGestorCodAlo";
             this.MenuGestorCodAlo.Size = new System.Drawing.Size(144, 20);
@@ -284,6 +285,7 @@
             // 
             // MenuGestorCodParque
             // 
+            this.MenuGestorCodParque.BackColor = System.Drawing.SystemColors.Control;
             this.MenuGestorCodParque.Location = new System.Drawing.Point(710, 248);
             this.MenuGestorCodParque.Name = "MenuGestorCodParque";
             this.MenuGestorCodParque.Size = new System.Drawing.Size(162, 20);
