@@ -94,6 +94,7 @@
             this.buttonVisitantesVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonVisitantesVolver.TabIndex = 102;
             this.buttonVisitantesVolver.UseVisualStyleBackColor = false;
+            this.buttonVisitantesVolver.Click += new System.EventHandler(this.buttonVisitantesVolver_Click);
             // 
             // buttonLimpiaVisitantes
             // 

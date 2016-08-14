@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaPersonal));
             System.Windows.Forms.Label label5;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaPersonal));
             this.persTelCasa = new System.Windows.Forms.Label();
             this.excTipoExcursion = new System.Windows.Forms.TextBox();
             this.persComboBoxCodigoParque = new System.Windows.Forms.ComboBox();
@@ -57,6 +57,16 @@
             this.persTelMovil = new System.Windows.Forms.TextBox();
             label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            label5.Location = new System.Drawing.Point(382, 102);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(237, 20);
+            label5.TabIndex = 82;
+            label5.Text = "Número de Seguridad Social";
             // 
             // persTelCasa
             // 
@@ -101,6 +111,7 @@
             this.buttonPersonalVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonPersonalVolver.TabIndex = 84;
             this.buttonPersonalVolver.UseVisualStyleBackColor = false;
+            this.buttonPersonalVolver.Click += new System.EventHandler(this.buttonPersonalVolver_Click);
             // 
             // buttonLimpiaPersonal
             // 
@@ -112,16 +123,6 @@
             this.buttonLimpiaPersonal.Size = new System.Drawing.Size(67, 60);
             this.buttonLimpiaPersonal.TabIndex = 83;
             this.buttonLimpiaPersonal.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            label5.Location = new System.Drawing.Point(382, 102);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(237, 20);
-            label5.TabIndex = 82;
-            label5.Text = "Número de Seguridad Social";
             // 
             // label4
             // 

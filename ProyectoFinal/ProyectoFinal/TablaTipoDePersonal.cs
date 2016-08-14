@@ -24,5 +24,12 @@ namespace ProyectoFinal
             TablaTipoDePersonal TablaTipoDePersonal = new TablaTipoDePersonal();
             TablaTipoDePersonal.ShowDialog();
         }
+
+        private void buttonTipoPersonalVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MenuAdministrador MenuAdministrador = new MenuAdministrador();
+            MenuAdministrador.ShowDialog();
+        }
     }
 }

@@ -40,9 +40,9 @@
             this.admProyecto = new System.Windows.Forms.Button();
             this.admAlojamiento = new System.Windows.Forms.Button();
             this.admInvestigador = new System.Windows.Forms.Button();
-            this.admTipoPersonal = new System.Windows.Forms.Button();
             this.admPersonal = new System.Windows.Forms.Button();
             this.admVisitante = new System.Windows.Forms.Button();
+            this.admTipoPersonal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -169,17 +169,6 @@
             this.admInvestigador.UseVisualStyleBackColor = true;
             this.admInvestigador.Click += new System.EventHandler(this.button4_Click_1);
             // 
-            // admTipoPersonal
-            // 
-            this.admTipoPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.admTipoPersonal.Location = new System.Drawing.Point(645, 319);
-            this.admTipoPersonal.Name = "admTipoPersonal";
-            this.admTipoPersonal.Size = new System.Drawing.Size(125, 50);
-            this.admTipoPersonal.TabIndex = 23;
-            this.admTipoPersonal.Text = "Tipo de Personal";
-            this.admTipoPersonal.UseVisualStyleBackColor = true;
-            this.admTipoPersonal.Click += new System.EventHandler(this.admTipoPersonal_Click);
-            // 
             // admPersonal
             // 
             this.admPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
@@ -202,6 +191,17 @@
             this.admVisitante.UseVisualStyleBackColor = true;
             this.admVisitante.Click += new System.EventHandler(this.admVisitante_Click);
             // 
+            // admTipoPersonal
+            // 
+            this.admTipoPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.admTipoPersonal.Location = new System.Drawing.Point(645, 319);
+            this.admTipoPersonal.Name = "admTipoPersonal";
+            this.admTipoPersonal.Size = new System.Drawing.Size(125, 50);
+            this.admTipoPersonal.TabIndex = 26;
+            this.admTipoPersonal.Text = "Tipo de Personal";
+            this.admTipoPersonal.UseVisualStyleBackColor = true;
+            this.admTipoPersonal.Click += new System.EventHandler(this.admTipoPersonal_Click_1);
+            // 
             // MenuAdministrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,9 +210,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(884, 511);
+            this.Controls.Add(this.admTipoPersonal);
             this.Controls.Add(this.admVisitante);
             this.Controls.Add(this.admPersonal);
-            this.Controls.Add(this.admTipoPersonal);
             this.Controls.Add(this.admInvestigador);
             this.Controls.Add(this.admAlojamiento);
             this.Controls.Add(this.admProyecto);
@@ -246,8 +246,8 @@
         private System.Windows.Forms.Button admProyecto;
         private System.Windows.Forms.Button admAlojamiento;
         private System.Windows.Forms.Button admInvestigador;
-        private System.Windows.Forms.Button admTipoPersonal;
         private System.Windows.Forms.Button admPersonal;
         private System.Windows.Forms.Button admVisitante;
+        private System.Windows.Forms.Button admTipoPersonal;
     }
 }

@@ -74,6 +74,7 @@
             this.buttonExcursionVolver.Size = new System.Drawing.Size(67, 60);
             this.buttonExcursionVolver.TabIndex = 66;
             this.buttonExcursionVolver.UseVisualStyleBackColor = false;
+            this.buttonExcursionVolver.Click += new System.EventHandler(this.buttonExcursionVolver_Click);
             // 
             // buttonLimpiaExcursion
             // 

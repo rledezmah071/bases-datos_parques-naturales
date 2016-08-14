@@ -158,11 +158,11 @@
     <Compile Include="TablaProyectos.Designer.cs">
       <DependentUpon>TablaProyectos.cs</DependentUpon>
     </Compile>
-    <Compile Include="TipoDePersonal.cs">
+    <Compile Include="TablaTipoDePersonal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TipoDePersonal.Designer.cs">
-      <DependentUpon>TipoDePersonal.cs</DependentUpon>
+    <Compile Include="TablaTipoDePersonal.Designer.cs">
+      <DependentUpon>TablaTipoDePersonal.cs</DependentUpon>
     </Compile>
     <Compile Include="TablaVisitantes.cs">
       <SubType>Form</SubType>
@@ -227,8 +227,8 @@
     <EmbeddedResource Include="TablaVisitantes.resx">
       <DependentUpon>TablaVisitantes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TipoDePersonal.resx">
-      <DependentUpon>TipoDePersonal.cs</DependentUpon>
+    <EmbeddedResource Include="TablaTipoDePersonal.resx">
+      <DependentUpon>TablaTipoDePersonal.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
