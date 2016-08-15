@@ -73,7 +73,7 @@
     <Compile Include="BotonInvisible.Designer.cs">
       <DependentUpon>BotonInvisible.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controlador.cs" />
+    <Compile Include="ClaseControladora.cs" />
     <Compile Include="TablaAlojamiento.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -216,7 +216,7 @@
             // 
             this.aloComboBoxParque.AccessibleDescription = "";
             this.aloComboBoxParque.BackColor = System.Drawing.SystemColors.Control;
-            this.aloComboBoxParque.DisplayMember = "Guardar ";
+            this.aloComboBoxParque.DisplayMember = "";
             this.aloComboBoxParque.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.aloComboBoxParque.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aloComboBoxParque.FormattingEnabled = true;

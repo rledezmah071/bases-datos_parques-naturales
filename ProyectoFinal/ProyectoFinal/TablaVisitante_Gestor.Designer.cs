@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaVisitante_Gestor));
             this.label3 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.visgProfesion = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.visgDomicilio = new System.Windows.Forms.TextBox();
@@ -125,7 +126,7 @@
             this.buttonLimpiaVisitantesG.UseVisualStyleBackColor = true;
             this.buttonLimpiaVisitantesG.Click += new System.EventHandler(this.buttonLimpiaVisitantesG_Click);
             // 
-            // extvsiDNI
+            // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
@@ -135,7 +136,7 @@
             this.label6.TabIndex = 120;
             this.label6.Text = "DNI";
             // 
-            // textvisNombre
+            // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
@@ -155,7 +156,7 @@
             this.label2.TabIndex = 118;
             this.label2.Text = "Código de Alojamiento";
             // 
-            // textvisID
+            // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
@@ -216,15 +217,15 @@
             this.buttonEliminaVisitantesG.TabIndex = 112;
             this.buttonEliminaVisitantesG.UseVisualStyleBackColor = false;
             // 
-            // comlabel
+            // label8
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(112, 170);
-            this.label3.Name = "comlabel";
-            this.label3.Size = new System.Drawing.Size(93, 20);
-            this.label3.TabIndex = 111;
-            this.label3.Text = "Existentes";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(112, 170);
+            this.label8.Name = "comlabel";
+            this.label8.Size = new System.Drawing.Size(93, 20);
+            this.label8.TabIndex = 111;
+            this.label8.Text = "Existentes";
             // 
             // ComboBoxVisitantesG
             // 

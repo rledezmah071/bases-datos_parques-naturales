@@ -33,8 +33,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.buttonMenuAdmVolver = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.buttonConsultaExcursionMG = new System.Windows.Forms.Button();
-            this.buttonConsultaAlojamientoMG = new System.Windows.Forms.Button();
             this.GestorBtnVisitantes = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.MenuGestorexcTipoExcursion = new System.Windows.Forms.TextBox();
@@ -54,6 +52,8 @@
             this.MenuGestorAloCategoria = new System.Windows.Forms.TextBox();
             this.MenuGestorAloID = new System.Windows.Forms.TextBox();
             this.MenuGestorCodParque = new System.Windows.Forms.TextBox();
+            this.gestComboBoxExcursiones = new System.Windows.Forms.ComboBox();
+            this.gestComboBoxAlojamiento = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -66,12 +66,12 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Menú Principal";
             // 
-            // gestExcursiones
+            // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.label11.Location = new System.Drawing.Point(7, 110);
-            this.label11.Name = "gestExcursiones";
+            this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(142, 26);
             this.label11.TabIndex = 14;
             this.label11.Text = "Excursiones";
@@ -89,40 +89,20 @@
             this.buttonMenuAdmVolver.UseVisualStyleBackColor = false;
             this.buttonMenuAdmVolver.Click += new System.EventHandler(this.buttonMenuAdmVolver_Click);
             // 
-            // GestAlojamiento
+            // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.label12.Location = new System.Drawing.Point(722, 110);
-            this.label12.Name = "GestAlojamiento";
+            this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(138, 26);
             this.label12.TabIndex = 16;
             this.label12.Text = "Alojamiento";
             // 
-            // buttonConsultaExcursionMG
-            // 
-            this.buttonConsultaExcursionMG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonConsultaExcursionMG.Location = new System.Drawing.Point(49, 318);
-            this.buttonConsultaExcursionMG.Name = "buttonConsultaExcursionMG";
-            this.buttonConsultaExcursionMG.Size = new System.Drawing.Size(148, 27);
-            this.buttonConsultaExcursionMG.TabIndex = 17;
-            this.buttonConsultaExcursionMG.Text = "Consultar";
-            this.buttonConsultaExcursionMG.UseVisualStyleBackColor = true;
-            // 
-            // buttonConsultaAlojamientoMG
-            // 
-            this.buttonConsultaAlojamientoMG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.buttonConsultaAlojamientoMG.Location = new System.Drawing.Point(727, 289);
-            this.buttonConsultaAlojamientoMG.Name = "buttonConsultaAlojamientoMG";
-            this.buttonConsultaAlojamientoMG.Size = new System.Drawing.Size(148, 28);
-            this.buttonConsultaAlojamientoMG.TabIndex = 18;
-            this.buttonConsultaAlojamientoMG.Text = "Consultar";
-            this.buttonConsultaAlojamientoMG.UseVisualStyleBackColor = true;
-            // 
             // GestorBtnVisitantes
             // 
             this.GestorBtnVisitantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GestorBtnVisitantes.Location = new System.Drawing.Point(712, 45);
+            this.GestorBtnVisitantes.Location = new System.Drawing.Point(396, 423);
             this.GestorBtnVisitantes.Name = "GestorBtnVisitantes";
             this.GestorBtnVisitantes.Size = new System.Drawing.Size(148, 27);
             this.GestorBtnVisitantes.TabIndex = 19;
@@ -292,6 +272,38 @@
             this.MenuGestorCodParque.Size = new System.Drawing.Size(162, 20);
             this.MenuGestorCodParque.TabIndex = 88;
             // 
+            // gestComboBoxExcursiones
+            // 
+            this.gestComboBoxExcursiones.AccessibleDescription = "";
+            this.gestComboBoxExcursiones.BackColor = System.Drawing.SystemColors.Control;
+            this.gestComboBoxExcursiones.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gestComboBoxExcursiones.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gestComboBoxExcursiones.FormattingEnabled = true;
+            this.gestComboBoxExcursiones.Items.AddRange(new object[] {
+            "Investigador",
+            "Proyecto"});
+            this.gestComboBoxExcursiones.Location = new System.Drawing.Point(165, 110);
+            this.gestComboBoxExcursiones.Name = "gestComboBoxExcursiones";
+            this.gestComboBoxExcursiones.Size = new System.Drawing.Size(177, 26);
+            this.gestComboBoxExcursiones.TabIndex = 89;
+            this.gestComboBoxExcursiones.Tag = "";
+            // 
+            // gestComboBoxAlojamiento
+            // 
+            this.gestComboBoxAlojamiento.AccessibleDescription = "";
+            this.gestComboBoxAlojamiento.BackColor = System.Drawing.SystemColors.Control;
+            this.gestComboBoxAlojamiento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gestComboBoxAlojamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gestComboBoxAlojamiento.FormattingEnabled = true;
+            this.gestComboBoxAlojamiento.Items.AddRange(new object[] {
+            "Investigador",
+            "Proyecto"});
+            this.gestComboBoxAlojamiento.Location = new System.Drawing.Point(527, 110);
+            this.gestComboBoxAlojamiento.Name = "gestComboBoxAlojamiento";
+            this.gestComboBoxAlojamiento.Size = new System.Drawing.Size(177, 26);
+            this.gestComboBoxAlojamiento.TabIndex = 90;
+            this.gestComboBoxAlojamiento.Tag = "";
+            // 
             // MenuGestor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -299,6 +311,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(884, 511);
+            this.Controls.Add(this.gestComboBoxAlojamiento);
+            this.Controls.Add(this.gestComboBoxExcursiones);
             this.Controls.Add(this.MenuGestorCodParque);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -318,8 +332,6 @@
             this.Controls.Add(this.MenuGestorExcFecha);
             this.Controls.Add(this.MenuGestorExcID);
             this.Controls.Add(this.GestorBtnVisitantes);
-            this.Controls.Add(this.buttonConsultaAlojamientoMG);
-            this.Controls.Add(this.buttonConsultaExcursionMG);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.buttonMenuAdmVolver);
             this.Controls.Add(this.label11);
@@ -338,8 +350,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button buttonMenuAdmVolver;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button buttonConsultaExcursionMG;
-        private System.Windows.Forms.Button buttonConsultaAlojamientoMG;
         private System.Windows.Forms.Button GestorBtnVisitantes;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox MenuGestorexcTipoExcursion;
@@ -359,5 +369,7 @@
         private System.Windows.Forms.TextBox MenuGestorAloCategoria;
         private System.Windows.Forms.TextBox MenuGestorAloID;
         private System.Windows.Forms.TextBox MenuGestorCodParque;
+        private System.Windows.Forms.ComboBox gestComboBoxExcursiones;
+        private System.Windows.Forms.ComboBox gestComboBoxAlojamiento;
     }
 }

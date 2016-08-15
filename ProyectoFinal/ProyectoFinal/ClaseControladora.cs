@@ -14,6 +14,7 @@ namespace ProyectoFinal
             OracleConnection databaseConnection = new OracleConnection("Data Source= DESKTOP-BQICPNQ;User Id=PARQUENATURAL;Password=root;");
 
         //Area
+        //
         public void insertaArea(string identificacion, string nombre, string extension)
         {
             databaseConnection.Open();
@@ -22,15 +23,6 @@ namespace ProyectoFinal
             databaseConnection.Close();
         }
 
-        public void actualizaArea()
-        {
-
-        }
-
-        public void eliminaArea()
-        {
-
-        }
-            
+                
     }
 }

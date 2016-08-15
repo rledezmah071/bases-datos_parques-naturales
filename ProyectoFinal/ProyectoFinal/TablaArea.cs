@@ -54,5 +54,10 @@ namespace ProyectoFinal
             MessageBox.Show("Registro guardado", "");
 
         }
+
+        private void buttonActualizarArea_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

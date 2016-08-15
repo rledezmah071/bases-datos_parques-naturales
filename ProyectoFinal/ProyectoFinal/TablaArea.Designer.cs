@@ -138,6 +138,7 @@
             this.buttonActualizarArea.Size = new System.Drawing.Size(67, 60);
             this.buttonActualizarArea.TabIndex = 57;
             this.buttonActualizarArea.UseVisualStyleBackColor = true;
+            this.buttonActualizarArea.Click += new System.EventHandler(this.buttonActualizarArea_Click);
             // 
             // buttonEliminaArea
             // 
