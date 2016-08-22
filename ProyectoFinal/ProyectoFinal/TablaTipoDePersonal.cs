@@ -26,8 +26,9 @@ namespace ProyectoFinal
         private void buttonTipoPersonalVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MenuAdministrador MenuAdministrador = new MenuAdministrador();
-            MenuAdministrador.ShowDialog();
+            MenuRecursosHumanos MenuRecursosHumanos = new MenuRecursosHumanos();
+            MenuRecursosHumanos.ShowDialog();
+          
         }
 
         private void buttonLimpiaTipoPersonal_Click(object sender, EventArgs e)
