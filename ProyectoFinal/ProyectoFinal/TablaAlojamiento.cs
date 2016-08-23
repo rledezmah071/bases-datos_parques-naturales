@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OracleClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,11 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
+
     public partial class TablaAlojamiento : Form
     {
+        OracleConnection databaseConnection = new OracleConnection("Data Source= MARIA-HP;User Id=parquenatural;Password=pepe;");
+        Controlador controlador = new Controlador();
         public TablaAlojamiento()
         {
             InitializeComponent();
@@ -29,7 +33,12 @@ namespace ProyectoFinal
 
         private void buttonGuardaAlojamiento_Click(object sender, EventArgs e)
         {
-
+          
+            int capacidad= int.Parse(aloCapacidad.Text.ToString());
+            int codigoParque= int.Parse(aloComboBoxParque.Text.ToString());
+            int id = int.Parse(aloID.Text.ToString());
+            controlador.insertaAlojamiento(id,aloCategoria.ToString(),capacidad,codigoParque);
+            
         }
 
         private void aloCapacidad_TextChanged(object sender, EventArgs e)
@@ -44,7 +53,9 @@ namespace ProyectoFinal
 
         private void buttonActualizarAlojamiento_Click(object sender, EventArgs e)
         {
-
+            
+            int id = int.Parse(aloID.Text.ToString());
+            controlador.actualizaCategoria(id, aloCategoria.ToString());
         }
 
         private void buttonEliminaAlojamiento_Click(object sender, EventArgs e)
@@ -71,7 +82,7 @@ namespace ProyectoFinal
 
         private void TablaAlojamiento_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
