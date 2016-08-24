@@ -76,28 +76,28 @@ namespace ProyectoFinal
                 databaseConnection.Close();
             }
 
-        public void eliminarAlojamiento(Int64 idAlojamiento)
-        {
-            try
-            {
-                databaseConnection.Open();
-                OracleCommand cmd = new OracleCommand("DMLALOJAMIENTO.DELALOJA", databaseConnection);
+      //  public void eliminarAlojamiento(Int64 idAlojamiento)
+        //{
+          //  try
+           // {
+             //   databaseConnection.Open();
+               // OracleCommand cmd = new OracleCommand("DMLALOJAMIENTO.DELALOJA", databaseConnection);
                 //cmd.CommandText = "DMLALOJAMIENTO.DELALOJA";
-                cmd.CommandType = CommandType.StoredProcedure;
+                //cmd.CommandType = CommandType.StoredProcedure;
                 //cmd.BindByName = true;
                 //cmd.Parameters.Add("Return_Value", OracleDbType.Int16, ParameterDirection.ReturnValue);
-                cmd.Parameters.Add("alojamiento1", OracleDbType.Int64).Value = idAlojamiento;
-                OracleTransaction transaction = databaseConnection.BeginTransaction(IsolationLevel.ReadCommitted);
-                cmd.Transaction = transaction;
-                cmd.ExecuteNonQuery();
-                transaction.Commit();
-
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Exception:{0}", ex.ToString());
-            }
-            databaseConnection.Close();
+                //cmd.Parameters.Add("alojamiento1", OracleDbType.Int64).Value = idAlojamiento;
+                //OracleTransaction transaction = databaseConnection.BeginTransaction(IsolationLevel.ReadCommitted);
+                //cmd.Transaction = transaction;
+                //cmd.ExecuteNonQuery();
+                //transaction.Commit();
+                //databaseConnection.Close();
+            //}
+           // catch (Exception ex)
+            //{
+              //  Console.WriteLine("Exception:{0}", ex.ToString());
+            //}
+            //databaseConnection.Close();
         }
     }
 }
