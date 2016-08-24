@@ -34,9 +34,9 @@ namespace ProyectoFinal
         private void buttonGuardaAlojamiento_Click(object sender, EventArgs e)
         {
           
-            int capacidad= int.Parse(aloCapacidad.Text.ToString());
-            int codigoParque= int.Parse(aloComboBoxParque.Text.ToString());
-            int id = int.Parse(aloID.Text.ToString());
+            Int64 capacidad= Int64.Parse(aloCapacidad.Text.ToString());
+            Int64 codigoParque= Int64.Parse(aloComboBoxParque.Text.ToString());
+            Int64 id = Int64.Parse(aloID.Text.ToString());
             controlador.insertaAlojamiento(id,aloCategoria.ToString(),capacidad,codigoParque);
             
         }
@@ -53,14 +53,15 @@ namespace ProyectoFinal
 
         private void buttonActualizarAlojamiento_Click(object sender, EventArgs e)
         {
-            
-            int id = int.Parse(aloID.Text.ToString());
-            controlador.actualizaCategoria(id, aloCategoria.ToString());
+
+            Int64 id = Int64.Parse(aloID.Text);
+            controlador.actualizaCategoria(id, aloCategoria.Text);
         }
 
         private void buttonEliminaAlojamiento_Click(object sender, EventArgs e)
         {
-
+            Int64 id = Int64.Parse(aloID.Text);
+            controlador.eliminarAlojamiento(id);
         }
 
         private void ComboBoxAlojamiento_SelectedIndexChanged(object sender, EventArgs e)
