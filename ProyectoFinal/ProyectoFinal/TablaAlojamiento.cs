@@ -60,8 +60,8 @@ namespace ProyectoFinal
 
         private void buttonEliminaAlojamiento_Click(object sender, EventArgs e)
         {
-            Int64 id = Int64.Parse(aloID.Text);
-            controlador.eliminarAlojamiento(id);
+            //Int64 id = Int64.Parse(aloID.Text);
+            //controlador.eliminarAlojamiento(id);
         }
 
         private void ComboBoxAlojamiento_SelectedIndexChanged(object sender, EventArgs e)
