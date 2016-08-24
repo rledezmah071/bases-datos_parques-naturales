@@ -13,12 +13,11 @@ namespace ProyectoFinal
     public class Controlador
     {
 
-        /* Para ver el Data Source es con este comando
-
+        /* Para ver el Data Source es con este comando, dentor del sql developer
             select SYS_CONTEXT('USERENV', 'HOST', 15) host_name from dual;
         */
 
-        OracleConnection databaseConnection = new OracleConnection("Data Source=MARIA-HP;User Id=parquenatural;Password=pepe;");
+        OracleConnection databaseConnection = new OracleConnection("Data Source=DESKTOP-55UT6S1;User Id=parquenaturalv02;Password=clave;");
         //Area
         //
         public void insertaArea(string identificacion, string nombre, string extension)
@@ -81,6 +80,11 @@ namespace ProyectoFinal
                 }
                 databaseConnection.Close();
             }
+
+
+
+
+
 
       //  public void eliminarAlojamiento(Int64 idAlojamiento)
         //{

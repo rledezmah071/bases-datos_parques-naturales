@@ -168,12 +168,12 @@
             this.buttonEliminaAlojamiento.UseVisualStyleBackColor = false;
             this.buttonEliminaAlojamiento.Click += new System.EventHandler(this.buttonEliminaAlojamiento_Click);
             // 
-            // alojlabel
+            // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label6.Location = new System.Drawing.Point(110, 171);
-            this.label6.Name = "alojlabel";
+            this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 20);
             this.label6.TabIndex = 38;
             this.label6.Text = "Existentes";
@@ -216,7 +216,6 @@
             // 
             this.aloComboBoxParque.AccessibleDescription = "";
             this.aloComboBoxParque.BackColor = System.Drawing.SystemColors.Control;
-            this.aloComboBoxParque.DisplayMember = "";
             this.aloComboBoxParque.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.aloComboBoxParque.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aloComboBoxParque.FormattingEnabled = true;
@@ -225,6 +224,7 @@
             this.aloComboBoxParque.Size = new System.Drawing.Size(197, 26);
             this.aloComboBoxParque.TabIndex = 51;
             this.aloComboBoxParque.Tag = "";
+            this.aloComboBoxParque.SelectedIndexChanged += new System.EventHandler(this.aloComboBoxParque_SelectedIndexChanged);
             // 
             // TablaAlojamiento
             // 

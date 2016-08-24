@@ -14,11 +14,12 @@ namespace ProyectoFinal
 
     public partial class TablaAlojamiento : Form
     {
-        OracleConnection databaseConnection = new OracleConnection("Data Source= MARIA-HP;User Id=parquenatural;Password=pepe;");
+        //OracleConnection databaseConnection = new OracleConnection("Data Source=DESKTOP-55UT6S1;User Id=parquenaturalv02;Password=clave;");
         Controlador controlador = new Controlador();
         public TablaAlojamiento()
         {
             InitializeComponent();
+            FillCombo();
             StartPosition = FormStartPosition.CenterScreen;
         }
 
@@ -81,9 +82,62 @@ namespace ProyectoFinal
             MenuAdministrador.ShowDialog();
         }
 
+        private void aloComboBoxParque_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void TablaAlojamiento_Load(object sender, EventArgs e)
         {
             
         }
+
+
+
+        void FillCombo()
+        {
+
+            //**RECUERDEN CAMBIAR EL DATA SOURCE, Jeje
+            OracleConnection databaseConnection = new OracleConnection("Data Source=DESKTOP-55UT6S1;User Id=parquenaturalv02;Password=clave;");
+            string query = "select id_parque from ALOJAMIENTO";
+            OracleCommand cmd = new OracleCommand(query, databaseConnection);
+            OracleDataReader myReader;
+     
+            try
+            {
+                databaseConnection.Open();
+                myReader = cmd.ExecuteReader();  //exception due to this line
+
+                while (myReader.Read())
+                {
+
+                    string sIdParque = myReader.GetString(4);
+                    aloComboBoxParque.Items.Add(sIdParque);
+
+                    //aloComboBoxParque.Items.Add(myReader.GetString(myReader.GetOrdinal("Seleccione Uno")));
+                    //aloComboBoxParque.Ite
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+       
     }
-}
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
