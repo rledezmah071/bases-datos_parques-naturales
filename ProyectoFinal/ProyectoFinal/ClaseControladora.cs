@@ -86,12 +86,11 @@ namespace ProyectoFinal
                 cmd.CommandType = CommandType.StoredProcedure;
                 //cmd.BindByName = true;
                 //cmd.Parameters.Add("Return_Value", OracleDbType.Int16, ParameterDirection.ReturnValue);
-                cmd.Parameters.Add("alojamiento", OracleDbType.Int64).Value = idAlojamiento;
+                cmd.Parameters.Add("alojamiento1", OracleDbType.Int64).Value = idAlojamiento;
                 OracleTransaction transaction = databaseConnection.BeginTransaction(IsolationLevel.ReadCommitted);
                 cmd.Transaction = transaction;
                 cmd.ExecuteNonQuery();
                 transaction.Commit();
-                databaseConnection.Close();
 
             }
             catch (Exception ex)
