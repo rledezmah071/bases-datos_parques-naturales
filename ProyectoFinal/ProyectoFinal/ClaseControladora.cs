@@ -12,6 +12,12 @@ namespace ProyectoFinal
 {
     public class Controlador
     {
+
+        /* Para ver el Data Source es con este comando
+
+            select SYS_CONTEXT('USERENV', 'HOST', 15) host_name from dual;
+        */
+
         OracleConnection databaseConnection = new OracleConnection("Data Source=MARIA-HP;User Id=parquenatural;Password=pepe;");
         //Area
         //

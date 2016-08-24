@@ -37,6 +37,8 @@ namespace ProyectoFinal
             Application.Exit();
         }
 
+
+
         private void buttonIngresar_Click(object sender, EventArgs e)
         {
 
@@ -80,6 +82,10 @@ namespace ProyectoFinal
         {
 
         }
+
+
+
+
 
         private void label4_Click(object sender, EventArgs e)
         {
