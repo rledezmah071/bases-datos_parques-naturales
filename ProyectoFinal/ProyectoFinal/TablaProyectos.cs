@@ -38,5 +38,10 @@ namespace ProyectoFinal
             proyPresupuesto.Clear();
             proyID.Clear();
         }
+
+        private void ComboBoxProyectos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //aaa
+        }
     }
 }

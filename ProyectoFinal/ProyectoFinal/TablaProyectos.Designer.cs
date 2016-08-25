@@ -106,12 +106,12 @@
             this.buttonLimpiaProyectos.UseVisualStyleBackColor = true;
             this.buttonLimpiaProyectos.Click += new System.EventHandler(this.buttonLimpiaProyectos_Click);
             // 
-            // Presupuesto
+            // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label7.Location = new System.Drawing.Point(480, 157);
-            this.label7.Name = "Presupuesto";
+            this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 20);
             this.label7.TabIndex = 82;
             this.label7.Text = "Presupuesto";
@@ -197,12 +197,12 @@
             this.buttonEliminaProyectos.TabIndex = 74;
             this.buttonEliminaProyectos.UseVisualStyleBackColor = false;
             // 
-            // comlabel
+            // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label5.Location = new System.Drawing.Point(105, 170);
-            this.label5.Name = "comlabel";
+            this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(93, 20);
             this.label5.TabIndex = 73;
             this.label5.Text = "Existentes";
@@ -219,6 +219,7 @@
             this.ComboBoxProyectos.Size = new System.Drawing.Size(177, 26);
             this.ComboBoxProyectos.TabIndex = 72;
             this.ComboBoxProyectos.Tag = "";
+            this.ComboBoxProyectos.SelectedIndexChanged += new System.EventHandler(this.ComboBoxProyectos_SelectedIndexChanged);
             // 
             // proyID
             // 

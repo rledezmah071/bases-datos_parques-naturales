@@ -23,7 +23,7 @@ namespace ProyectoFinal
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
-
+  
         }
 
         private void textoUsuario_TextChanged(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace ProyectoFinal
             }
             else if (textoUsuario.Text == ("admin4") && (textoContraseña.Text == ("clave4")))
             {
-
+                
                 this.Hide();
                 MenuRecursosHumanos MenuRecursosHumanos = new MenuRecursosHumanos();
                 MenuRecursosHumanos.ShowDialog();
@@ -92,62 +92,6 @@ namespace ProyectoFinal
             BotonInvisible BotonInvisible = new BotonInvisible();
             BotonInvisible.ShowDialog();
             BotonInvisible.Visible = false;
-        }
-
-        private void textoContraseña_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textoContraseña_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == Convert.ToChar(Keys.Enter))
-            {
-                if (textoUsuario.Text == ("admin") && (textoContraseña.Text == ("clave")))
-                {
-                    this.Hide();
-                    MenuAdministrador MenuAdministrador = new MenuAdministrador();
-                    MenuAdministrador.ShowDialog();
-
-
-                }
-                else if (textoUsuario.Text == ("admin2") && (textoContraseña.Text == ("clave2")))
-                {
-                    this.Hide();
-                    MenuGestor MenuGestor = new MenuGestor();
-                    MenuGestor.ShowDialog();
-
-
-                }
-                else if (textoUsuario.Text == ("admin3") && (textoContraseña.Text == ("clave3")))
-                {
-                    this.Hide();
-                    MenuInvestigador MenuInvestigador = new MenuInvestigador();
-                    MenuInvestigador.ShowDialog();
-
-                }
-                else if (textoUsuario.Text == ("admin4") && (textoContraseña.Text == ("clave4")))
-                {
-
-                    this.Hide();
-                    MenuRecursosHumanos MenuRecursosHumanos = new MenuRecursosHumanos();
-                    MenuRecursosHumanos.ShowDialog();
-                }
-                else {
-                    MessageBox.Show("Usuario y/o contraseña incorrectos", "Error!");
-                }
-
-
-            }
-        }
-
-
-        private void textoUsuario_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                textoContraseña.Focus();
-            }
         }
     }
 
