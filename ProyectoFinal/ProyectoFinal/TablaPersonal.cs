@@ -42,5 +42,10 @@ namespace ProyectoFinal
             persTelCasa.Clear();
             persTelMovil.Clear();
         }
+
+        private void ComboBoxPersonal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //aaaaaa
+        }
     }
 }
