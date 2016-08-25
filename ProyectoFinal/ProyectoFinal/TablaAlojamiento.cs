@@ -19,8 +19,7 @@ namespace ProyectoFinal
         public TablaAlojamiento()
         {
             InitializeComponent();
-            FillCombo1();
-            FillCombo2();
+            FillCombo();
             StartPosition = FormStartPosition.CenterScreen;
         }
 
@@ -35,12 +34,12 @@ namespace ProyectoFinal
 
         private void buttonGuardaAlojamiento_Click(object sender, EventArgs e)
         {
-
-            Int64 capacidad = Int64.Parse(aloCapacidad.Text.ToString());
-            Int64 codigoParque = Int64.Parse(aloComboBoxParque.Text.ToString());
+          
+            Int64 capacidad= Int64.Parse(aloCapacidad.Text.ToString());
+            Int64 codigoParque= Int64.Parse(aloComboBoxParque.Text.ToString());
             Int64 id = Int64.Parse(aloID.Text.ToString());
-            controlador.insertaAlojamiento(id, aloCategoria.ToString(), capacidad, codigoParque);
-
+            controlador.insertaAlojamiento(id,aloCategoria.ToString(),capacidad,codigoParque);
+            
         }
 
         private void aloCapacidad_TextChanged(object sender, EventArgs e)
@@ -90,20 +89,20 @@ namespace ProyectoFinal
 
         private void TablaAlojamiento_Load(object sender, EventArgs e)
         {
-
+            
         }
 
 
 
-        void FillCombo1()
+        void FillCombo()
         {
 
             //**RECUERDEN CAMBIAR EL DATA SOURCE, Jeje
-            OracleConnection databaseConnection = new OracleConnection("Data Source=MARIA-HP;User Id=parquenatural;Password=pepe;");
+            OracleConnection databaseConnection = new OracleConnection("Data Source=DESKTOP-55UT6S1;User Id=parquenaturalv02;Password=clave;");
             string query = "select id_parque from ALOJAMIENTO";
             OracleCommand cmd = new OracleCommand(query, databaseConnection);
             OracleDataReader myReader;
-
+     
             try
             {
                 databaseConnection.Open();
@@ -112,10 +111,10 @@ namespace ProyectoFinal
                 while (myReader.Read())
                 {
 
-                    // string sIdParque = myReader.GetString(4);
-                    // aloComboBoxParque.Items.Add(sIdParque);
+                    string sIdParque = myReader.GetString(4);
+                    aloComboBoxParque.Items.Add(sIdParque);
 
-                    aloComboBoxParque.Items.Add(myReader.GetInt64(myReader.GetOrdinal("id_parque")));
+                    //aloComboBoxParque.Items.Add(myReader.GetString(myReader.GetOrdinal("Seleccione Uno")));
                     //aloComboBoxParque.Ite
 
                 }
@@ -125,52 +124,12 @@ namespace ProyectoFinal
                 MessageBox.Show(ex.ToString());
             }
         }
-        void FillCombo2()
-        {
 
-            //**RECUERDEN CAMBIAR EL DATA SOURCE, Jeje
-            OracleConnection databaseConnection = new OracleConnection("Data Source=MARIA-HP;User Id=parquenatural;Password=pepe;");
-            string query = "select categoria from ALOJAMIENTO";
-            OracleCommand cmd = new OracleCommand(query, databaseConnection);
-            OracleDataReader myReader;
-
-            try
-            {
-                databaseConnection.Open();
-                myReader = cmd.ExecuteReader();  //exception due to this line
-
-                while (myReader.Read())
-                {
-
-                    //string sIdParque = myReader.GetString(4);
-                    //aloComboBoxParque.Items.Add(sIdParque);
-
-                    ComboBoxAlojamiento.Items.Add(myReader.GetString(myReader.GetOrdinal("categoria")));
-
-
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
+       
     }
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 
 
