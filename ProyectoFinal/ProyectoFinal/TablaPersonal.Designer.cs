@@ -206,12 +206,12 @@
             this.buttonEliminaPersonal.TabIndex = 74;
             this.buttonEliminaPersonal.UseVisualStyleBackColor = false;
             // 
-            // exclabel
+            // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label10.Location = new System.Drawing.Point(110, 171);
-            this.label10.Name = "exclabel";
+            this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(93, 20);
             this.label10.TabIndex = 73;
             this.label10.Text = "Existentes";
@@ -229,6 +229,7 @@
             this.ComboBoxPersonal.Size = new System.Drawing.Size(177, 26);
             this.ComboBoxPersonal.TabIndex = 72;
             this.ComboBoxPersonal.Tag = "";
+            this.ComboBoxPersonal.SelectedIndexChanged += new System.EventHandler(this.ComboBoxPersonal_SelectedIndexChanged);
             // 
             // persID
             // 
@@ -296,12 +297,12 @@
             this.label7.TabIndex = 90;
             this.label7.Text = "Código de Proyecto";
             // 
-            // Salario
+            // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label8.Location = new System.Drawing.Point(550, 206);
-            this.label8.Name = "Salario";
+            this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 20);
             this.label8.TabIndex = 93;
             this.label8.Text = "Salario";
