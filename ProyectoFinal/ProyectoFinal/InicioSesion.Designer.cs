@@ -60,7 +60,6 @@
             this.textoUsuario.Size = new System.Drawing.Size(140, 20);
             this.textoUsuario.TabIndex = 1;
             this.textoUsuario.TextChanged += new System.EventHandler(this.textoUsuario_TextChanged);
-            this.textoUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textoUsuario_KeyDown);
             // 
             // textoContraseña
             // 
@@ -71,8 +70,6 @@
             this.textoContraseña.Size = new System.Drawing.Size(140, 20);
             this.textoContraseña.TabIndex = 2;
             this.textoContraseña.UseSystemPasswordChar = true;
-            this.textoContraseña.TextChanged += new System.EventHandler(this.textoContraseña_TextChanged);
-            this.textoContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textoContraseña_KeyPress);
             // 
             // buttonIngresar
             // 
