@@ -125,6 +125,7 @@
             this.buttonSalir.Text = "Salir";
             this.buttonSalir.UseVisualStyleBackColor = false;
             this.buttonSalir.Click += new System.EventHandler(this.buttonSalir_Click);
+            this.buttonSalir.KeyDown += new System.Windows.Forms.KeyEventHandler(this.buttonSalir_KeyDown);
             // 
             // label4
             // 

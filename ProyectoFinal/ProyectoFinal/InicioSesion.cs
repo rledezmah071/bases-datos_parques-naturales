@@ -76,6 +76,7 @@ namespace ProyectoFinal
                 MessageBox.Show("Usuario y/o contraseña incorrectos", "Error!");
             }
 
+
         }
 
         private void InicioSesion_Load(object sender, EventArgs e)
@@ -147,6 +148,14 @@ namespace ProyectoFinal
             if (e.KeyCode == Keys.Enter)
             {
                 textoContraseña.Focus();
+            }
+        }
+
+        private void buttonSalir_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                Application.Exit();
             }
         }
     }
