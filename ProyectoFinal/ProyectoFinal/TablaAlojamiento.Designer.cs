@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaAlojamiento));
             this.buttonAlojamientoVolver = new System.Windows.Forms.Button();
             this.buttonLimpiaAlojamiento = new System.Windows.Forms.Button();
@@ -45,6 +46,11 @@
             this.aloID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.aloComboBoxParque = new System.Windows.Forms.ComboBox();
+            this.dataSet1 = new ProyectoFinal.DataSet1();
+            this.aLOJAMIENTOBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.aLOJAMIENTOTableAdapter = new ProyectoFinal.DataSet1TableAdapters.ALOJAMIENTOTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aLOJAMIENTOBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonAlojamientoVolver
@@ -220,11 +226,26 @@
             this.aloComboBoxParque.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aloComboBoxParque.FormattingEnabled = true;
             this.aloComboBoxParque.Location = new System.Drawing.Point(634, 273);
+            this.aloComboBoxParque.MaxDropDownItems = 18;
             this.aloComboBoxParque.Name = "aloComboBoxParque";
             this.aloComboBoxParque.Size = new System.Drawing.Size(197, 26);
             this.aloComboBoxParque.TabIndex = 51;
             this.aloComboBoxParque.Tag = "";
             this.aloComboBoxParque.SelectedIndexChanged += new System.EventHandler(this.aloComboBoxParque_SelectedIndexChanged);
+            // 
+            // dataSet1
+            // 
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // aLOJAMIENTOBindingSource
+            // 
+            this.aLOJAMIENTOBindingSource.DataMember = "ALOJAMIENTO";
+            this.aLOJAMIENTOBindingSource.DataSource = this.dataSet1;
+            // 
+            // aLOJAMIENTOTableAdapter
+            // 
+            this.aLOJAMIENTOTableAdapter.ClearBeforeFill = true;
             // 
             // TablaAlojamiento
             // 
@@ -250,6 +271,8 @@
             this.Name = "TablaAlojamiento";
             this.Text = "Alojamiento";
             this.Load += new System.EventHandler(this.TablaAlojamiento_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aLOJAMIENTOBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,5 +296,8 @@
         private System.Windows.Forms.TextBox aloID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox aloComboBoxParque;
+        private DataSet1 dataSet1;
+        private System.Windows.Forms.BindingSource aLOJAMIENTOBindingSource;
+        private DataSet1TableAdapters.ALOJAMIENTOTableAdapter aLOJAMIENTOTableAdapter;
     }
 }

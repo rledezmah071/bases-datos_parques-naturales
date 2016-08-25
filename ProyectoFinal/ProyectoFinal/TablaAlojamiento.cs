@@ -14,10 +14,11 @@ namespace ProyectoFinal
 
     public partial class TablaAlojamiento : Form
     {
-        //OracleConnection databaseConnection = new OracleConnection("Data Source=DESKTOP-55UT6S1;User Id=parquenaturalv02;Password=clave;");
+        //OracleConnection databaseConnection = new OracleConnection("Data Source=MARIA-HP User Id=parquenatural;Password=pepe;");
         Controlador controlador = new Controlador();
         public TablaAlojamiento()
         {
+            
             InitializeComponent();
             FillCombo();
             StartPosition = FormStartPosition.CenterScreen;
@@ -89,7 +90,9 @@ namespace ProyectoFinal
 
         private void TablaAlojamiento_Load(object sender, EventArgs e)
         {
-            
+            // TODO: This line of code loads data into the 'dataSet1.ALOJAMIENTO' table. You can move, or remove it, as needed.
+            this.aLOJAMIENTOTableAdapter.Fill(this.dataSet1.ALOJAMIENTO);
+
         }
 
 
@@ -98,7 +101,7 @@ namespace ProyectoFinal
         {
 
             //**RECUERDEN CAMBIAR EL DATA SOURCE, Jeje
-            OracleConnection databaseConnection = new OracleConnection("Data Source=DESKTOP-55UT6S1;User Id=parquenaturalv02;Password=clave;");
+            OracleConnection databaseConnection = new OracleConnection("Data Source=MARIA-HP;User Id=parquenatural;Password=pepe;");
             string query = "select id_parque from ALOJAMIENTO";
             OracleCommand cmd = new OracleCommand(query, databaseConnection);
             OracleDataReader myReader;
@@ -111,11 +114,12 @@ namespace ProyectoFinal
                 while (myReader.Read())
                 {
 
-                    string sIdParque = myReader.GetString(4);
-                    aloComboBoxParque.Items.Add(sIdParque);
+    
+                     // string sIdParque = myReader.GetString(3);
+                    //aloComboBoxParque.Items.Add(sIdParque);
 
-                    //aloComboBoxParque.Items.Add(myReader.GetString(myReader.GetOrdinal("Seleccione Uno")));
-                    //aloComboBoxParque.Ite
+                    aloComboBoxParque.Items.Add(myReader.GetInt64(myReader.GetOrdinal("id_parque")));
+                    
 
                 }
             }
