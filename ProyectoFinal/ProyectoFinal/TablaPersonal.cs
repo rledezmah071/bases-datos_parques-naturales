@@ -46,6 +46,7 @@ namespace ProyectoFinal
         private void ComboBoxPersonal_SelectedIndexChanged(object sender, EventArgs e)
         {
             //aaaaaa
+            ///aaaaaa
         }
     }
 }
